@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+html, body {
+  background-color: white !important;
+  color: black !important;
+}
+
+[data-theme='light'] {
+  --b1: 255 255 255; /* Background putih */
+  --bc: 0 0 0;       /* Text hitam */
+  color-scheme: light;
+}
