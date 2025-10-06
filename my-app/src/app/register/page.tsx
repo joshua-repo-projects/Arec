@@ -5,6 +5,8 @@ import { useState } from "react"
 export default function LoginPage() {
     const [forms, setForm] = useState({
         email: '',
+        username: '',
+        name: '',
         password: ''
     })
 
@@ -21,7 +23,7 @@ export default function LoginPage() {
     return (
         <div className="flex justify-center items-center min-h-screen bg-base-100">
             <div className="fieldset bg-base-200 border-base-300 rounded-box border p-8 w-full max-w-lg">
-                <div className="text-3xl font-bold text-center mb-6">Login</div>
+                <div className="text-3xl font-bold text-center mb-6">Register</div>
 
                 <label className="label">Email</label>
                 <input
@@ -31,6 +33,26 @@ export default function LoginPage() {
                     placeholder="Email"
                     onChange={handleChange}
                     value={forms.email}
+                />
+
+                <label className="label">Username</label>
+                <input
+                    type="username"
+                    name="username"
+                    className="input input-bordered w-full"
+                    placeholder="Username"
+                    onChange={handleChange}
+                    value={forms.username}
+                />
+
+                <label className="label">Name</label>
+                <input
+                    type="name"
+                    name="name"
+                    className="input input-bordered w-full"
+                    placeholder="Name"
+                    onChange={handleChange}
+                    value={forms.name}
                 />
 
                 <label className="label mt-4">Password</label>
