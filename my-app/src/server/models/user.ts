@@ -25,6 +25,17 @@ export default class User {
     static async register(payload: IUser): Promise<string> {
         userSchema.parse(payload)
         const collection = this.connection()
+        const existingUsername = await collection.findOne({username: payload.username})
+
+        if (existingUsername) {
+            throw new Error('Username already exists')
+        }
+
+        const existingEmail = await collection.findOne({email: payload.email})
+
+        if (existingEmail) {
+            throw new Error('Email already exists')
+        }
 
         payload.password = bcrypt.hashSync(payload.password, 10)
         await collection.insertOne(payload)
