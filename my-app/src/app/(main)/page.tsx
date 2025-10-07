@@ -184,6 +184,7 @@ export default function Home() {
 
   const nextBanner = () => {
     setCurrentBanner((prev) => (prev + 1) % banners.length);
+    setInterval(() => 300)
   };
 
   const prevBanner = () => {

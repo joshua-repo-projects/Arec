@@ -1,0 +1,4552 @@
+[
+  {
+    "id": 1,
+    "sku": "ACER-1001",
+    "name": "Acer Nitro 5",
+    "price": 27011501,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-nitro-5-1.png",
+      "/images/acer-nitro-5-2.png",
+      "/images/acer-nitro-5-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "sku": "ACER-1002",
+    "name": "Acer Chromebook Spin 713",
+    "price": 34586719,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-chromebook-spin-713-1.png",
+      "/images/acer-chromebook-spin-713-2.png",
+      "/images/acer-chromebook-spin-713-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "sku": "ACER-1003",
+    "name": "Acer Aspire 7",
+    "price": 44064889,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "sku": "ACER-1004",
+    "name": "Acer Enduro Urban N3",
+    "price": 11280301,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-enduro-urban-n3-1.png",
+      "/images/acer-enduro-urban-n3-2.png",
+      "/images/acer-enduro-urban-n3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "sku": "ACER-1005",
+    "name": "Acer Chromebook 315",
+    "price": 8582105,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "sku": "ACER-1006",
+    "name": "Acer Enduro Urban N3",
+    "price": 22286445,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-enduro-urban-n3-1.png",
+      "/images/acer-enduro-urban-n3-2.png",
+      "/images/acer-enduro-urban-n3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "sku": "ACER-1007",
+    "name": "Acer Swift 3",
+    "price": 27952731,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-3-1.png",
+      "/images/acer-swift-3-2.png",
+      "/images/acer-swift-3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "sku": "ACER-1008",
+    "name": "Acer Predator Triton 500",
+    "price": 31006556,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-predator-triton-500-1.png",
+      "/images/acer-predator-triton-500-2.png",
+      "/images/acer-predator-triton-500-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 9,
+    "sku": "ACER-1009",
+    "name": "Acer Predator Helios 16",
+    "price": 37021776,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-predator-helios-16-1.png",
+      "/images/acer-predator-helios-16-2.png",
+      "/images/acer-predator-helios-16-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 10,
+    "sku": "ACER-1010",
+    "name": "Acer Aspire Vero",
+    "price": 12202128,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-vero-1.png",
+      "/images/acer-aspire-vero-2.png",
+      "/images/acer-aspire-vero-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 11,
+    "sku": "ACER-1011",
+    "name": "Acer Chromebook 315",
+    "price": 44121181,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "sku": "ACER-1012",
+    "name": "Acer Aspire Vero",
+    "price": 11687631,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-aspire-vero-1.png",
+      "/images/acer-aspire-vero-2.png",
+      "/images/acer-aspire-vero-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 13,
+    "sku": "ACER-1013",
+    "name": "Acer Aspire 7",
+    "price": 8936803,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 14,
+    "sku": "ACER-1014",
+    "name": "Acer Aspire 7",
+    "price": 36466851,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 15,
+    "sku": "ACER-1015",
+    "name": "Acer Aspire 7",
+    "price": 16268102,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 16,
+    "sku": "ACER-1016",
+    "name": "Acer Chromebook 315",
+    "price": 42826137,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 17,
+    "sku": "ACER-1017",
+    "name": "Acer Swift 3",
+    "price": 44234898,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-3-1.png",
+      "/images/acer-swift-3-2.png",
+      "/images/acer-swift-3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 18,
+    "sku": "ACER-1018",
+    "name": "Acer Swift X",
+    "price": 8584196,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 19,
+    "sku": "ACER-1019",
+    "name": "Acer Aspire 7",
+    "price": 39493943,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "sku": "ACER-1020",
+    "name": "Acer Chromebook Spin 713",
+    "price": 34782473,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-chromebook-spin-713-1.png",
+      "/images/acer-chromebook-spin-713-2.png",
+      "/images/acer-chromebook-spin-713-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 21,
+    "sku": "ACER-1021",
+    "name": "Acer Chromebook Spin 713",
+    "price": 13643937,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-chromebook-spin-713-1.png",
+      "/images/acer-chromebook-spin-713-2.png",
+      "/images/acer-chromebook-spin-713-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 22,
+    "sku": "ACER-1022",
+    "name": "Acer Swift 3",
+    "price": 26541350,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-swift-3-1.png",
+      "/images/acer-swift-3-2.png",
+      "/images/acer-swift-3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 23,
+    "sku": "ACER-1023",
+    "name": "Acer Swift X",
+    "price": 24753533,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 24,
+    "sku": "ACER-1024",
+    "name": "Acer Swift 3",
+    "price": 41695229,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-3-1.png",
+      "/images/acer-swift-3-2.png",
+      "/images/acer-swift-3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 25,
+    "sku": "ACER-1025",
+    "name": "Acer Swift X",
+    "price": 30544074,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 26,
+    "sku": "ACER-1026",
+    "name": "Acer Chromebook 315",
+    "price": 43292385,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 27,
+    "sku": "ACER-1027",
+    "name": "Acer Swift X",
+    "price": 33245613,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 28,
+    "sku": "ACER-1028",
+    "name": "Acer Predator Triton 500",
+    "price": 36612468,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-predator-triton-500-1.png",
+      "/images/acer-predator-triton-500-2.png",
+      "/images/acer-predator-triton-500-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 29,
+    "sku": "ACER-1029",
+    "name": "Acer Swift X",
+    "price": 16368339,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 30,
+    "sku": "ACER-1030",
+    "name": "Acer Enduro Urban N3",
+    "price": 43849073,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-enduro-urban-n3-1.png",
+      "/images/acer-enduro-urban-n3-2.png",
+      "/images/acer-enduro-urban-n3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 31,
+    "sku": "ACER-1031",
+    "name": "Acer Predator Helios 16",
+    "price": 11282036,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-predator-helios-16-1.png",
+      "/images/acer-predator-helios-16-2.png",
+      "/images/acer-predator-helios-16-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 32,
+    "sku": "ACER-1032",
+    "name": "Acer Nitro 5",
+    "price": 32695630,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-nitro-5-1.png",
+      "/images/acer-nitro-5-2.png",
+      "/images/acer-nitro-5-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 33,
+    "sku": "ACER-1033",
+    "name": "Acer Nitro 5",
+    "price": 27662884,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-nitro-5-1.png",
+      "/images/acer-nitro-5-2.png",
+      "/images/acer-nitro-5-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 34,
+    "sku": "ACER-1034",
+    "name": "Acer Swift 3",
+    "price": 40323658,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-3-1.png",
+      "/images/acer-swift-3-2.png",
+      "/images/acer-swift-3-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 35,
+    "sku": "ACER-1035",
+    "name": "Acer Swift X",
+    "price": 39510344,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 36,
+    "sku": "ACER-1036",
+    "name": "Acer Predator Helios 16",
+    "price": 14298340,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-predator-helios-16-1.png",
+      "/images/acer-predator-helios-16-2.png",
+      "/images/acer-predator-helios-16-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 37,
+    "sku": "ACER-1037",
+    "name": "Acer Aspire Vero",
+    "price": 35417325,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-vero-1.png",
+      "/images/acer-aspire-vero-2.png",
+      "/images/acer-aspire-vero-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 38,
+    "sku": "ACER-1038",
+    "name": "Acer Chromebook 315",
+    "price": 14059368,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 39,
+    "sku": "ACER-1039",
+    "name": "Acer Aspire 7",
+    "price": 19130955,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 40,
+    "sku": "ACER-1040",
+    "name": "Acer Aspire Vero",
+    "price": 37220833,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-vero-1.png",
+      "/images/acer-aspire-vero-2.png",
+      "/images/acer-aspire-vero-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 41,
+    "sku": "ACER-1041",
+    "name": "Acer Swift X",
+    "price": 11676909,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 42,
+    "sku": "ACER-1042",
+    "name": "Acer Predator Triton 500",
+    "price": 22766746,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-predator-triton-500-1.png",
+      "/images/acer-predator-triton-500-2.png",
+      "/images/acer-predator-triton-500-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 43,
+    "sku": "ACER-1043",
+    "name": "Acer Aspire 7",
+    "price": 41438494,
+    "category": "Chromebook",
+    "images": [
+      "/images/acer-aspire-7-1.png",
+      "/images/acer-aspire-7-2.png",
+      "/images/acer-aspire-7-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 44,
+    "sku": "ACER-1044",
+    "name": "Acer Swift X",
+    "price": 23389676,
+    "category": "Gaming Laptop",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 45,
+    "sku": "ACER-1045",
+    "name": "Acer Swift X",
+    "price": 10267509,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 46,
+    "sku": "ACER-1046",
+    "name": "Acer Nitro 5",
+    "price": 28453840,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-nitro-5-1.png",
+      "/images/acer-nitro-5-2.png",
+      "/images/acer-nitro-5-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 47,
+    "sku": "ACER-1047",
+    "name": "Acer Chromebook 315",
+    "price": 43835844,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-chromebook-315-1.png",
+      "/images/acer-chromebook-315-2.png",
+      "/images/acer-chromebook-315-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 48,
+    "sku": "ACER-1048",
+    "name": "Acer Predator Helios 16",
+    "price": 26027407,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-predator-helios-16-1.png",
+      "/images/acer-predator-helios-16-2.png",
+      "/images/acer-predator-helios-16-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 49,
+    "sku": "ACER-1049",
+    "name": "Acer Aspire Vero",
+    "price": 43744363,
+    "category": "Laptop",
+    "images": [
+      "/images/acer-aspire-vero-1.png",
+      "/images/acer-aspire-vero-2.png",
+      "/images/acer-aspire-vero-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 50,
+    "sku": "ACER-1050",
+    "name": "Acer Swift X",
+    "price": 24491343,
+    "category": "Ultrabook",
+    "images": [
+      "/images/acer-swift-x-1.png",
+      "/images/acer-swift-x-2.png",
+      "/images/acer-swift-x-3.png"
+    ],
+    "specs": {
+      "processor": {
+        "title": "Processor",
+        "items": [
+          {
+            "label": "Processor Model",
+            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+          }
+        ]
+      },
+      "memory": {
+        "title": "Memory",
+        "items": [
+          {
+            "label": "Standard Memory",
+            "value": "16 GB"
+          },
+          {
+            "label": "Maximum Memory",
+            "value": "24 GB"
+          },
+          {
+            "label": "Memory Technology",
+            "value": "DDR5"
+          }
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "items": [
+          {
+            "label": "Total SSD Capacity",
+            "value": "512 GB"
+          },
+          {
+            "label": "SSD Interface",
+            "value": "NVMe"
+          }
+        ]
+      },
+      "display": {
+        "title": "Display & Graphics",
+        "items": [
+          {
+            "label": "Screen Size",
+            "value": "16 inch"
+          },
+          {
+            "label": "Screen Resolution",
+            "value": "1920 x 1200 (WUXGA)"
+          },
+          {
+            "label": "Refresh Rate",
+            "value": "180 Hz"
+          },
+          {
+            "label": "Response Time",
+            "value": "3 ms (GTG)"
+          },
+          {
+            "label": "Color Gamut",
+            "value": "100% sRGB"
+          },
+          {
+            "label": "Graphics",
+            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+          }
+        ]
+      },
+      "os": {
+        "title": "Operating System",
+        "items": [
+          {
+            "label": "OS",
+            "value": "Windows 11 Home"
+          }
+        ]
+      }
+    }
+  }
+]
