@@ -1,7 +1,9 @@
 import z from "zod";
 import { getDB } from "../config/mongoDB";
-import bcrypt from "bcryptjs";
-import jwt from 'jsonwebtoken'
+import { signToken } from "../helpers/jwt";
+import { checkPassword, hashPassword } from "../helpers/bcrypt";
+import { BaseError } from "../helpers/customErrors";
+import { HTTPStatus } from "../types/Index";
 
 interface IUser {
     name: string
@@ -37,18 +39,12 @@ export default class User {
         userSchema.parse(payload)
         const collection = this.connection()
         const existingUsername = await collection.findOne({username: payload.username})
-
-        if (existingUsername) {
-            throw new Error('Username already exists')
-        }
+        if (existingUsername) throw new BaseError('Username already exists', HTTPStatus.BadRequest)
 
         const existingEmail = await collection.findOne({email: payload.email})
+        if (existingEmail) throw new BaseError('Email already exists', HTTPStatus.BadRequest)
 
-        if (existingEmail) {
-            throw new Error('Email already exists')
-        }
-
-        payload.password = bcrypt.hashSync(payload.password, 10)
+        payload.password = hashPassword(payload.password)
         await collection.insertOne(payload)
 
         return 'Register successfull'
@@ -59,12 +55,12 @@ export default class User {
         const collection = this.connection()
 
         const user = await collection.findOne({email: payload.email})
-        if(!user) throw new Error('Invalid email/password')
+        if(!user) throw new BaseError('Invalid email/password', HTTPStatus.Unauthorized)
 
-        const isValid = bcrypt.compareSync(payload.password, user.password)
-        if(!isValid) throw new Error('Invalid email/password')
+        const isValid = checkPassword(payload.password, user.password)
+        if(!isValid) throw new BaseError('Invalid email/password', HTTPStatus.Unauthorized)
         
-        const token = jwt.sign({_id: user._id, username: user.username}, 'rahasia')
+        const token = signToken({_id: user._id, username: user.username})
 
         return token
     }
