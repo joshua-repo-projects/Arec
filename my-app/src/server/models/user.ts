@@ -20,7 +20,7 @@ interface ILogin {
 const userSchema = z.object({
     username: z.string(),
     email: z.email(),
-    password: z.string().min(5, 'Password minimal is 5')
+    password: z.string().nonempty('Password is required').min(5, 'Password minimal is 5')
 })
 
 const loginSchema = z.object({

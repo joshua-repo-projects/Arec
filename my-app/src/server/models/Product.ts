@@ -21,4 +21,14 @@ export default class Product {
 
         return data
     }
+
+    static async searchProduct(params: string) {
+        const collection = this.connection()
+        const data = await collection.find({
+            $or: [{
+                name: {$regex: params, $options: 'i'}
+            }]
+        }).toArray()
+        return data
+    }
 }
