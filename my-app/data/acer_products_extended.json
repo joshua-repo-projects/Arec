@@ -1,14 +1,13 @@
 [
   {
-    "id": 1,
     "sku": "ACER-1001",
     "name": "Acer Nitro 5",
     "price": 27011501,
     "category": "Chromebook",
     "images": [
-      "/images/acer-nitro-5-1.png",
-      "/images/acer-nitro-5-2.png",
-      "/images/acer-nitro-5-3.png"
+      "https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2022/01/20181034/5543b4bb-64b4-49fc-b381-34e1c845a4dc.jpg",
+      "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg",
+      "https://m.media-amazon.com/images/I/41F48wwKaFL._SL500_.jpg"
     ],
     "specs": {
       "processor": {
@@ -16,7 +15,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -75,7 +74,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -88,18 +87,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Nitro 5 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Nitro 5 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2022/01/20181034/5543b4bb-64b4-49fc-b381-34e1c845a4dc.jpg"
   },
   {
-    "id": 2,
     "sku": "ACER-1002",
     "name": "Acer Chromebook Spin 713",
     "price": 34586719,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-chromebook-spin-713-1.png",
-      "/images/acer-chromebook-spin-713-2.png",
-      "/images/acer-chromebook-spin-713-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-31621718/brd-44261_acer-chromebook-spin-cp713-2in1-touch-i3-10110-4gb-128gb-13-5qhd_full01.jpg",
+      "https://m.media-amazon.com/images/I/71FgchEOJoS.jpg",
+      "https://www.pointstar.co.id/wp-content/uploads/2021/07/Chromebook_Spin_713_main_medium.jpeg"
     ],
     "specs": {
       "processor": {
@@ -107,7 +116,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -166,7 +175,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -179,18 +188,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook Spin 713 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Chromebook Spin 713 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-31621718/brd-44261_acer-chromebook-spin-cp713-2in1-touch-i3-10110-4gb-128gb-13-5qhd_full01.jpg"
   },
   {
-    "id": 3,
     "sku": "ACER-1003",
     "name": "Acer Aspire 7",
     "price": 44064889,
     "category": "Laptop",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -198,7 +217,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -257,7 +276,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -270,18 +289,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg"
   },
   {
-    "id": 4,
     "sku": "ACER-1004",
     "name": "Acer Enduro Urban N3",
     "price": 11280301,
     "category": "Chromebook",
     "images": [
-      "/images/acer-enduro-urban-n3-1.png",
-      "/images/acer-enduro-urban-n3-2.png",
-      "/images/acer-enduro-urban-n3-3.png"
+      "https://pcmax.id/wp-content/uploads/2023/02/202202090202018981.jpg",
+      "https://pccentro.net/img/s/4/7/3/8/0/47380-large_default.jpg",
+      "https://www.notebookcheck.net/uploads/tx_nbc2/urbann3.jpg"
     ],
     "specs": {
       "processor": {
@@ -289,7 +318,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -348,7 +377,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -361,18 +390,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Enduro Urban N3 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Enduro Urban N3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://pcmax.id/wp-content/uploads/2023/02/202202090202018981.jpg"
   },
   {
-    "id": 5,
     "sku": "ACER-1005",
     "name": "Acer Chromebook 315",
     "price": 8582105,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -380,7 +419,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -439,7 +478,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -452,18 +491,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png"
   },
   {
-    "id": 6,
     "sku": "ACER-1006",
     "name": "Acer Enduro Urban N3",
     "price": 22286445,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-enduro-urban-n3-1.png",
-      "/images/acer-enduro-urban-n3-2.png",
-      "/images/acer-enduro-urban-n3-3.png"
+      "https://pcmax.id/wp-content/uploads/2023/02/202202090202018981.jpg",
+      "https://pccentro.net/img/s/4/7/3/8/0/47380-large_default.jpg",
+      "https://www.notebookcheck.net/uploads/tx_nbc2/urbann3.jpg"
     ],
     "specs": {
       "processor": {
@@ -471,7 +520,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -530,7 +579,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -543,18 +592,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Enduro Urban N3 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Enduro Urban N3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://pccentro.net/img/s/4/7/3/8/0/47380-large_default.jpg"
   },
   {
-    "id": 7,
     "sku": "ACER-1007",
     "name": "Acer Swift 3",
     "price": 27952731,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-3-1.png",
-      "/images/acer-swift-3-2.png",
-      "/images/acer-swift-3-3.png"
+      "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg",
+      "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp",
+      "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
     ],
     "specs": {
       "processor": {
@@ -562,7 +621,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -621,7 +680,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -634,18 +693,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift 3 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift 3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg"
   },
   {
-    "id": 8,
     "sku": "ACER-1008",
     "name": "Acer Predator Triton 500",
     "price": 31006556,
     "category": "Laptop",
     "images": [
-      "/images/acer-predator-triton-500-1.png",
-      "/images/acer-predator-triton-500-2.png",
-      "/images/acer-predator-triton-500-3.png"
+      "https://m.media-amazon.com/images/I/71HWQq7dX2L.jpg",
+      "https://yangcanggih.com/wp-content/uploads/2019/09/Acer-Predator-Triton-500.jpg",
+      "https://gizmologi.id/wp-content/uploads/2020/07/harga-acer-predator-triton-500.jpeg"
     ],
     "specs": {
       "processor": {
@@ -653,7 +722,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -712,7 +781,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -725,18 +794,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Triton 500 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Predator Triton 500 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71HWQq7dX2L.jpg"
   },
   {
-    "id": 9,
     "sku": "ACER-1009",
     "name": "Acer Predator Helios 16",
     "price": 37021776,
     "category": "Chromebook",
     "images": [
-      "/images/acer-predator-helios-16-1.png",
-      "/images/acer-predator-helios-16-2.png",
-      "/images/acer-predator-helios-16-3.png"
+      "https://els.id/wp-content/uploads/2024/06/Predator-Helios-Neo-16-PHN16-72-2.png",
+      "https://images.renos.id/assets/portal-assets/982/product/images/3393a4c8-3728-40aa-a1e9-4be07a507ce5_20231111081450.jpg",
+      "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
     ],
     "specs": {
       "processor": {
@@ -744,7 +823,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -803,7 +882,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -816,18 +895,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Helios 16 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Predator Helios 16 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
   },
   {
-    "id": 10,
     "sku": "ACER-1010",
     "name": "Acer Aspire Vero",
     "price": 12202128,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-vero-1.png",
-      "/images/acer-aspire-vero-2.png",
-      "/images/acer-aspire-vero-3.png"
+      "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg",
+      "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75",
+      "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
     ],
     "specs": {
       "processor": {
@@ -835,7 +924,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -894,7 +983,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -907,18 +996,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire Vero is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire Vero combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg"
   },
   {
-    "id": 11,
     "sku": "ACER-1011",
     "name": "Acer Chromebook 315",
     "price": 44121181,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -926,7 +1025,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -985,7 +1084,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -998,18 +1097,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg"
   },
   {
-    "id": 12,
     "sku": "ACER-1012",
     "name": "Acer Aspire Vero",
     "price": 11687631,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-aspire-vero-1.png",
-      "/images/acer-aspire-vero-2.png",
-      "/images/acer-aspire-vero-3.png"
+      "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg",
+      "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75",
+      "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
     ],
     "specs": {
       "processor": {
@@ -1017,7 +1126,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1076,7 +1185,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1089,18 +1198,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire Vero is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Aspire Vero combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75"
   },
   {
-    "id": 13,
     "sku": "ACER-1013",
     "name": "Acer Aspire 7",
     "price": 8936803,
     "category": "Laptop",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -1108,7 +1227,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1167,7 +1286,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1180,18 +1299,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
   },
   {
-    "id": 14,
     "sku": "ACER-1014",
     "name": "Acer Aspire 7",
     "price": 36466851,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -1199,7 +1328,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1258,7 +1387,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1271,18 +1400,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg"
   },
   {
-    "id": 15,
     "sku": "ACER-1015",
     "name": "Acer Aspire 7",
     "price": 16268102,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -1290,7 +1429,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1349,7 +1488,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1362,18 +1501,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg"
   },
   {
-    "id": 16,
     "sku": "ACER-1016",
     "name": "Acer Chromebook 315",
     "price": 42826137,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -1381,7 +1530,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1440,7 +1589,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1453,18 +1602,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
   },
   {
-    "id": 17,
     "sku": "ACER-1017",
     "name": "Acer Swift 3",
     "price": 44234898,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-3-1.png",
-      "/images/acer-swift-3-2.png",
-      "/images/acer-swift-3-3.png"
+      "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg",
+      "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp",
+      "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
     ],
     "specs": {
       "processor": {
@@ -1472,7 +1631,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1531,7 +1690,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1544,18 +1703,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift 3 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift 3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp"
   },
   {
-    "id": 18,
     "sku": "ACER-1018",
     "name": "Acer Swift X",
     "price": 8584196,
     "category": "Chromebook",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -1563,7 +1732,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1622,7 +1791,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1635,18 +1804,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg"
   },
   {
-    "id": 19,
     "sku": "ACER-1019",
     "name": "Acer Aspire 7",
     "price": 39493943,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -1654,7 +1833,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1713,7 +1892,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1726,18 +1905,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
   },
   {
-    "id": 20,
     "sku": "ACER-1020",
     "name": "Acer Chromebook Spin 713",
     "price": 34782473,
     "category": "Chromebook",
     "images": [
-      "/images/acer-chromebook-spin-713-1.png",
-      "/images/acer-chromebook-spin-713-2.png",
-      "/images/acer-chromebook-spin-713-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-31621718/brd-44261_acer-chromebook-spin-cp713-2in1-touch-i3-10110-4gb-128gb-13-5qhd_full01.jpg",
+      "https://www.itworks.id/wp-content/uploads/2020/07/acer-chromebook.jpg",
+      "https://cdn.cs.1worldsync.com/5f/18/5f180769-f712-4959-b5b3-b7a9b8f9cd27.jpg"
     ],
     "specs": {
       "processor": {
@@ -1745,7 +1934,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1804,7 +1993,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1817,18 +2006,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook Spin 713 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Chromebook Spin 713 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.itworks.id/wp-content/uploads/2020/07/acer-chromebook.jpg"
   },
   {
-    "id": 21,
     "sku": "ACER-1021",
     "name": "Acer Chromebook Spin 713",
     "price": 13643937,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-chromebook-spin-713-1.png",
-      "/images/acer-chromebook-spin-713-2.png",
-      "/images/acer-chromebook-spin-713-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-31621718/brd-44261_acer-chromebook-spin-cp713-2in1-touch-i3-10110-4gb-128gb-13-5qhd_full01.jpg",
+      "https://www.itworks.id/wp-content/uploads/2020/07/acer-chromebook.jpg",
+      "https://cdn.cs.1worldsync.com/5f/18/5f180769-f712-4959-b5b3-b7a9b8f9cd27.jpg"
     ],
     "specs": {
       "processor": {
@@ -1836,7 +2035,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1895,7 +2094,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1908,18 +2107,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook Spin 713 is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Chromebook Spin 713 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://cdn.cs.1worldsync.com/5f/18/5f180769-f712-4959-b5b3-b7a9b8f9cd27.jpg"
   },
   {
-    "id": 22,
     "sku": "ACER-1022",
     "name": "Acer Swift 3",
     "price": 26541350,
     "category": "Chromebook",
     "images": [
-      "/images/acer-swift-3-1.png",
-      "/images/acer-swift-3-2.png",
-      "/images/acer-swift-3-3.png"
+      "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg",
+      "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp",
+      "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
     ],
     "specs": {
       "processor": {
@@ -1927,7 +2136,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -1986,7 +2195,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -1999,18 +2208,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift 3 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Swift 3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg"
   },
   {
-    "id": 23,
     "sku": "ACER-1023",
     "name": "Acer Swift X",
     "price": 24753533,
     "category": "Chromebook",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -2018,7 +2237,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2077,7 +2296,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2090,18 +2309,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
   },
   {
-    "id": 24,
     "sku": "ACER-1024",
     "name": "Acer Swift 3",
     "price": 41695229,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-3-1.png",
-      "/images/acer-swift-3-2.png",
-      "/images/acer-swift-3-3.png"
+      "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg",
+      "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp",
+      "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
     ],
     "specs": {
       "processor": {
@@ -2109,7 +2338,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2168,7 +2397,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2181,18 +2410,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift 3 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift 3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp"
   },
   {
-    "id": 25,
     "sku": "ACER-1025",
     "name": "Acer Swift X",
     "price": 30544074,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -2200,7 +2439,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2259,7 +2498,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2272,18 +2511,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg"
   },
   {
-    "id": 26,
     "sku": "ACER-1026",
     "name": "Acer Chromebook 315",
     "price": 43292385,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -2291,7 +2540,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2350,7 +2599,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2363,18 +2612,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg"
   },
   {
-    "id": 27,
     "sku": "ACER-1027",
     "name": "Acer Swift X",
     "price": 33245613,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -2382,7 +2641,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2441,7 +2700,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2454,18 +2713,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg"
   },
   {
-    "id": 28,
     "sku": "ACER-1028",
     "name": "Acer Predator Triton 500",
     "price": 36612468,
     "category": "Chromebook",
     "images": [
-      "/images/acer-predator-triton-500-1.png",
-      "/images/acer-predator-triton-500-2.png",
-      "/images/acer-predator-triton-500-3.png"
+      "https://m.media-amazon.com/images/I/71HWQq7dX2L.jpg",
+      "https://yangcanggih.com/wp-content/uploads/2019/09/Acer-Predator-Triton-500.jpg",
+      "https://gizmologi.id/wp-content/uploads/2020/07/harga-acer-predator-triton-500.jpeg"
     ],
     "specs": {
       "processor": {
@@ -2473,7 +2742,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2532,7 +2801,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2545,18 +2814,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Triton 500 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Predator Triton 500 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://yangcanggih.com/wp-content/uploads/2019/09/Acer-Predator-Triton-500.jpg"
   },
   {
-    "id": 29,
     "sku": "ACER-1029",
     "name": "Acer Swift X",
     "price": 16368339,
     "category": "Chromebook",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -2564,7 +2843,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2623,7 +2902,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2636,18 +2915,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
   },
   {
-    "id": 30,
     "sku": "ACER-1030",
     "name": "Acer Enduro Urban N3",
     "price": 43849073,
     "category": "Laptop",
     "images": [
-      "/images/acer-enduro-urban-n3-1.png",
-      "/images/acer-enduro-urban-n3-2.png",
-      "/images/acer-enduro-urban-n3-3.png"
+      "https://pcmax.id/wp-content/uploads/2023/02/202202090202018981.jpg",
+      "https://pccentro.net/img/s/4/7/3/8/0/47380-large_default.jpg",
+      "https://www.notebookcheck.net/uploads/tx_nbc2/urbann3.jpg"
     ],
     "specs": {
       "processor": {
@@ -2655,7 +2944,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2714,7 +3003,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2727,18 +3016,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Enduro Urban N3 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Enduro Urban N3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.notebookcheck.net/uploads/tx_nbc2/urbann3.jpg"
   },
   {
-    "id": 31,
     "sku": "ACER-1031",
     "name": "Acer Predator Helios 16",
     "price": 11282036,
     "category": "Chromebook",
     "images": [
-      "/images/acer-predator-helios-16-1.png",
-      "/images/acer-predator-helios-16-2.png",
-      "/images/acer-predator-helios-16-3.png"
+      "https://els.id/wp-content/uploads/2024/06/Predator-Helios-Neo-16-PHN16-72-2.png",
+      "https://images.renos.id/assets/portal-assets/982/product/images/3393a4c8-3728-40aa-a1e9-4be07a507ce5_20231111081450.jpg",
+      "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
     ],
     "specs": {
       "processor": {
@@ -2746,7 +3045,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2805,7 +3104,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2818,18 +3117,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Helios 16 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Predator Helios 16 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://images.renos.id/assets/portal-assets/982/product/images/3393a4c8-3728-40aa-a1e9-4be07a507ce5_20231111081450.jpg"
   },
   {
-    "id": 32,
     "sku": "ACER-1032",
     "name": "Acer Nitro 5",
     "price": 32695630,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-nitro-5-1.png",
-      "/images/acer-nitro-5-2.png",
-      "/images/acer-nitro-5-3.png"
+      "https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2022/01/20181034/5543b4bb-64b4-49fc-b381-34e1c845a4dc.jpg",
+      "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg",
+      "https://m.media-amazon.com/images/I/41F48wwKaFL._SL500_.jpg"
     ],
     "specs": {
       "processor": {
@@ -2837,7 +3146,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2896,7 +3205,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -2909,18 +3218,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Nitro 5 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Nitro 5 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg"
   },
   {
-    "id": 33,
     "sku": "ACER-1033",
     "name": "Acer Nitro 5",
     "price": 27662884,
     "category": "Chromebook",
     "images": [
-      "/images/acer-nitro-5-1.png",
-      "/images/acer-nitro-5-2.png",
-      "/images/acer-nitro-5-3.png"
+      "https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2022/01/20181034/5543b4bb-64b4-49fc-b381-34e1c845a4dc.jpg",
+      "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg",
+      "https://m.media-amazon.com/images/I/41F48wwKaFL._SL500_.jpg"
     ],
     "specs": {
       "processor": {
@@ -2928,7 +3247,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -2987,7 +3306,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3000,18 +3319,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Nitro 5 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Nitro 5 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg"
   },
   {
-    "id": 34,
     "sku": "ACER-1034",
     "name": "Acer Swift 3",
     "price": 40323658,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-3-1.png",
-      "/images/acer-swift-3-2.png",
-      "/images/acer-swift-3-3.png"
+      "https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg",
+      "https://www.camerawarehouse.co.za/wp-content/uploads/2024/06/acer-swift-3-nx.ablea_.00k_npdj.webp",
+      "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
     ],
     "specs": {
       "processor": {
@@ -3019,7 +3348,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3078,7 +3407,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3091,18 +3420,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift 3 is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift 3 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://cdn.neowin.com/news/images/uploaded/2020/01/1577906218_s1.jpg"
   },
   {
-    "id": 35,
     "sku": "ACER-1035",
     "name": "Acer Swift X",
     "price": 39510344,
     "category": "Laptop",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -3110,7 +3449,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3169,7 +3508,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3182,18 +3521,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg"
   },
   {
-    "id": 36,
     "sku": "ACER-1036",
     "name": "Acer Predator Helios 16",
     "price": 14298340,
     "category": "Chromebook",
     "images": [
-      "/images/acer-predator-helios-16-1.png",
-      "/images/acer-predator-helios-16-2.png",
-      "/images/acer-predator-helios-16-3.png"
+      "https://els.id/wp-content/uploads/2024/06/Predator-Helios-Neo-16-PHN16-72-2.png",
+      "https://images.renos.id/assets/portal-assets/982/product/images/3393a4c8-3728-40aa-a1e9-4be07a507ce5_20231111081450.jpg",
+      "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
     ],
     "specs": {
       "processor": {
@@ -3201,7 +3550,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3260,7 +3609,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3273,18 +3622,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Helios 16 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Predator Helios 16 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://els.id/wp-content/uploads/2024/06/Predator-Helios-Neo-16-PHN16-72-2.png"
   },
   {
-    "id": 37,
     "sku": "ACER-1037",
     "name": "Acer Aspire Vero",
     "price": 35417325,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-vero-1.png",
-      "/images/acer-aspire-vero-2.png",
-      "/images/acer-aspire-vero-3.png"
+      "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg",
+      "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75",
+      "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
     ],
     "specs": {
       "processor": {
@@ -3292,7 +3651,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3351,7 +3710,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3364,18 +3723,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire Vero is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire Vero combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
   },
   {
-    "id": 38,
     "sku": "ACER-1038",
     "name": "Acer Chromebook 315",
     "price": 14059368,
     "category": "Laptop",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -3383,7 +3752,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3442,7 +3811,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3455,18 +3824,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png"
   },
   {
-    "id": 39,
     "sku": "ACER-1039",
     "name": "Acer Aspire 7",
     "price": 19130955,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -3474,7 +3853,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3533,7 +3912,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3546,18 +3925,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg"
   },
   {
-    "id": 40,
     "sku": "ACER-1040",
     "name": "Acer Aspire Vero",
     "price": 37220833,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-vero-1.png",
-      "/images/acer-aspire-vero-2.png",
-      "/images/acer-aspire-vero-3.png"
+      "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg",
+      "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75",
+      "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
     ],
     "specs": {
       "processor": {
@@ -3565,7 +3954,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3624,7 +4013,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3637,18 +4026,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire Vero is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire Vero combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg"
   },
   {
-    "id": 41,
     "sku": "ACER-1041",
     "name": "Acer Swift X",
     "price": 11676909,
     "category": "Laptop",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -3656,7 +4055,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3715,7 +4114,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3728,18 +4127,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg"
   },
   {
-    "id": 42,
     "sku": "ACER-1042",
     "name": "Acer Predator Triton 500",
     "price": 22766746,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-predator-triton-500-1.png",
-      "/images/acer-predator-triton-500-2.png",
-      "/images/acer-predator-triton-500-3.png"
+      "https://m.media-amazon.com/images/I/71HWQq7dX2L.jpg",
+      "https://yangcanggih.com/wp-content/uploads/2019/09/Acer-Predator-Triton-500.jpg",
+      "https://gizmologi.id/wp-content/uploads/2020/07/harga-acer-predator-triton-500.jpeg"
     ],
     "specs": {
       "processor": {
@@ -3747,7 +4156,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3806,7 +4215,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3819,18 +4228,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Triton 500 is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Predator Triton 500 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://gizmologi.id/wp-content/uploads/2020/07/harga-acer-predator-triton-500.jpeg"
   },
   {
-    "id": 43,
     "sku": "ACER-1043",
     "name": "Acer Aspire 7",
     "price": 41438494,
     "category": "Chromebook",
     "images": [
-      "/images/acer-aspire-7-1.png",
-      "/images/acer-aspire-7-2.png",
-      "/images/acer-aspire-7-3.png"
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg",
+      "https://elevenkomputer.com/15251-large_default/acer-aspire-7-a715-59g-71ph-titanium-black.jpg",
+      "https://www.jagatreview.com/wp-content/uploads/2025/04/acer-aspire-7-pro.webp"
     ],
     "specs": {
       "processor": {
@@ -3838,7 +4257,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3897,7 +4316,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -3910,18 +4329,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire 7 is a reliable chromebook designed for performance and everyday use.",
+    "description": "The Acer Aspire 7 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "chromebook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/92/MTA-143361182/acer_acer_aspire_7_gaming_a715_76g_53gv_rtx2050_i5_12450h_8-512gb_fhd_144hz_full01_llou6e0n.jpg"
   },
   {
-    "id": 44,
     "sku": "ACER-1044",
     "name": "Acer Swift X",
     "price": 23389676,
     "category": "Gaming Laptop",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -3929,7 +4358,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -3988,7 +4417,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4001,18 +4430,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable gaming laptop designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "gaming laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
   },
   {
-    "id": 45,
     "sku": "ACER-1045",
     "name": "Acer Swift X",
     "price": 10267509,
     "category": "Laptop",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -4020,7 +4459,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4079,7 +4518,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4092,18 +4531,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg"
   },
   {
-    "id": 46,
     "sku": "ACER-1046",
     "name": "Acer Nitro 5",
     "price": 28453840,
     "category": "Laptop",
     "images": [
-      "/images/acer-nitro-5-1.png",
-      "/images/acer-nitro-5-2.png",
-      "/images/acer-nitro-5-3.png"
+      "https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2022/01/20181034/5543b4bb-64b4-49fc-b381-34e1c845a4dc.jpg",
+      "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg",
+      "https://m.media-amazon.com/images/I/41F48wwKaFL._SL500_.jpg"
     ],
     "specs": {
       "processor": {
@@ -4111,7 +4560,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4170,7 +4619,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4183,18 +4632,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Nitro 5 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Nitro 5 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/csm_4_zu_3_nitro5_4157e3db7b.jpg"
   },
   {
-    "id": 47,
     "sku": "ACER-1047",
     "name": "Acer Chromebook 315",
     "price": 43835844,
     "category": "Laptop",
     "images": [
-      "/images/acer-chromebook-315-1.png",
-      "/images/acer-chromebook-315-2.png",
-      "/images/acer-chromebook-315-3.png"
+      "https://images-cdn.ubuy.co.id/634d07b4cddecf50461acfc7-acer-315-15-6-touch-celeron-4gb-64gb.jpg",
+      "https://manuals.plus/wp-content/uploads/2025/01/acer-Chromebook-315-4GB-RAM-15-6-Inch-Laptop-PRODUCT.png",
+      "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
     ],
     "specs": {
       "processor": {
@@ -4202,7 +4661,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4261,7 +4720,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4274,18 +4733,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Chromebook 315 is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Chromebook 315 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71sFYBm9D+L.jpg"
   },
   {
-    "id": 48,
     "sku": "ACER-1048",
     "name": "Acer Predator Helios 16",
     "price": 26027407,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-predator-helios-16-1.png",
-      "/images/acer-predator-helios-16-2.png",
-      "/images/acer-predator-helios-16-3.png"
+      "https://els.id/wp-content/uploads/2024/06/Predator-Helios-Neo-16-PHN16-72-2.png",
+      "https://images.renos.id/assets/portal-assets/982/product/images/3393a4c8-3728-40aa-a1e9-4be07a507ce5_20231111081450.jpg",
+      "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
     ],
     "specs": {
       "processor": {
@@ -4293,7 +4762,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4352,7 +4821,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4365,18 +4834,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Predator Helios 16 is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Predator Helios 16 combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://dbklik.co.id/public/uploads/all/I3dsRwXHurmsjCG8AUc1o7r8l5xi0RX9Y65Gbd7i.jpg"
   },
   {
-    "id": 49,
     "sku": "ACER-1049",
     "name": "Acer Aspire Vero",
     "price": 43744363,
     "category": "Laptop",
     "images": [
-      "/images/acer-aspire-vero-1.png",
-      "/images/acer-aspire-vero-2.png",
-      "/images/acer-aspire-vero-3.png"
+      "https://media.dinomarket.com/docs/imgTD/2022-12/DM_EC009D26CF964E152BAEE3C5FB8A83EF_071222161254_ll.jpg",
+      "https://www.pricebook.co.id/_next/image?url=https%3A%2F%2Fmedia.pricebook.co.id%2Farticle%2F6720b209d2cb508207be3ad1%2F6720b209d2cb508207be3ad1_1730199856.jpg&w=1920&q=75",
+      "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
     ],
     "specs": {
       "processor": {
@@ -4384,7 +4863,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4443,7 +4922,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4456,18 +4935,28 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Aspire Vero is a reliable laptop designed for performance and everyday use.",
+    "description": "The Acer Aspire Vero combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "laptop",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://mcgrocer.com/cdn/shop/files/acer-aspire-vero-intel-core-i7-16gb-ram-1tb-ssd-15-6-inch-laptop-nx-klmek-005-42583975526638.jpg?v=1735654726"
   },
   {
-    "id": 50,
     "sku": "ACER-1050",
     "name": "Acer Swift X",
     "price": 24491343,
     "category": "Ultrabook",
     "images": [
-      "/images/acer-swift-x-1.png",
-      "/images/acer-swift-x-2.png",
-      "/images/acer-swift-x-3.png"
+      "https://asset.kompas.com/crops/slJbeU2zCOmL-6FwvWmqf1kbCqQ=/0x223:4000x2890/1200x800/data/photo/2023/06/21/6492bac28ddfd.jpg",
+      "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-160888762/acer_acer_swift_x_14_sfx14-72g-70k8-steel_gray_full01_d4dimdo3.jpg",
+      "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
     ],
     "specs": {
       "processor": {
@@ -4475,7 +4964,7 @@
         "items": [
           {
             "label": "Processor Model",
-            "value": "Intel® Core™ i7-240H (10 Cores, up to 5.1 GHz)"
+            "value": "Intel\u00ae Core\u2122 i7-240H (10 Cores, up to 5.1 GHz)"
           }
         ]
       },
@@ -4534,7 +5023,7 @@
           },
           {
             "label": "Graphics",
-            "value": "NVIDIA® GeForce RTX™ 4050 6GB GDDR6"
+            "value": "NVIDIA\u00ae GeForce RTX\u2122 4050 6GB GDDR6"
           }
         ]
       },
@@ -4547,6 +5036,17 @@
           }
         ]
       }
-    }
+    },
+    "excerpt": "The Acer Swift X is a reliable ultrabook designed for performance and everyday use.",
+    "description": "The Acer Swift X combines speed, style, and performance. Featuring an advanced processor and high-quality graphics, it's perfect for gaming, productivity, and entertainment.",
+    "tags": [
+      "acer",
+      "laptop",
+      "ultrabook",
+      "performance",
+      "windows",
+      "intel"
+    ],
+    "thumbnail": "https://els.id/wp-content/uploads/2023/10/Swift-X-SFX14-71G.png"
   }
 ]
