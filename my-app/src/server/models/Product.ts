@@ -14,4 +14,11 @@ export default class Product {
 
         return data
     }
+
+    static async getProductBySlug(slug: string) {
+        const collection = this.connection()
+        const data = await collection.findOne({sku: slug})
+
+        return data
+    }
 }
