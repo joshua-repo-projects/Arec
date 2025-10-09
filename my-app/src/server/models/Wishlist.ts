@@ -27,4 +27,19 @@ export default class Wishlist {
 
         return 'Successfull add wishlist'
     }
+
+    static async getAllWishtlists() {
+        const collection = this.connection()
+        const data = await collection.find().toArray()
+
+        return data
+    }
+
+    static async deleteWishlist() {
+        const collection = this.connection()
+        const query = {_id: ObjectId}
+        await collection.deleteOne(query)
+
+        return 'Successfull delete wishlist'
+    }
 }
