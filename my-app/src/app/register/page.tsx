@@ -1,5 +1,6 @@
 'use client'
 
+import { Loading } from "@/components/loading"
 import { showError } from "@/helpers/alert"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
@@ -13,6 +14,7 @@ export default function LoginPage() {
         name: '',
         password: ''
     })
+    const [loading, setLoading] = useState(false)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target
@@ -25,6 +27,7 @@ export default function LoginPage() {
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         try {
+            setLoading(true)
             const resp = await fetch('http://localhost:3000/api/register', {
                 method: 'POST',
                 headers: {
@@ -35,16 +38,23 @@ export default function LoginPage() {
             const data = await resp.json()
             if (!resp.ok) {
                 showError(data.message)
+                return
             }
             router.push('/login')
         } catch (error) {
             console.log(error, '<<< error register page')
             showError(error)
+        } finally {
+            setLoading(false)
         }
 
     }
 
     const isFilled = forms.email.trim().length > 0 || forms.password.trim().length > 0
+
+    if (loading) {
+        return <Loading/>
+    }
 
     return (
         <div className="flex justify-center items-center min-h-screen bg-base-100">
@@ -53,7 +63,6 @@ export default function LoginPage() {
                 <form onSubmit={handleSubmit}>
                     <label className="label">Email</label>
                     <input
-                        type="email"
                         name="email"
                         className="input input-bordered w-full"
                         placeholder="Email"
@@ -63,7 +72,6 @@ export default function LoginPage() {
 
                     <label className="label">Username</label>
                     <input
-                        type="username"
                         name="username"
                         className="input input-bordered w-full"
                         placeholder="Username"
@@ -73,7 +81,6 @@ export default function LoginPage() {
 
                     <label className="label">Name</label>
                     <input
-                        type="name"
                         name="name"
                         className="input input-bordered w-full"
                         placeholder="Name"

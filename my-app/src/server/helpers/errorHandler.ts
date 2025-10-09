@@ -11,8 +11,8 @@ interface IErrorResult {
 export function ErrorHandler(error: unknown): IErrorResult {
     switch (true) {
         case error instanceof ZodError:
-            const issues = error.issues
-            const message = issues.map(el => `${el.path} - ${el.message}`).join(', ')
+            const issues = error.issues[0]
+            const message = issues.message
             return {message, status: HTTPStatus.BadRequest}
         case error instanceof BaseError:
         case error instanceof NotFoundError:
