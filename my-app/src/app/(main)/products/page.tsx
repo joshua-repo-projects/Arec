@@ -3,9 +3,12 @@
 import { useProduct } from "@/app/context/ProductContext";
 import CardProduct from "@/components/cardProduct";
 import AcerNavbar from "@/components/navbar";
-import { Grid, Heart, List, Star } from "lucide-react";
-import { useContext, useEffect, useState } from "react";
+import { Grid, Heart, List, Loader2, Star } from "lucide-react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { Product } from "./typescript.ts/interfaces";
+import { Loading } from "@/components/loading";
+import InfiniteScroll from "react-infinite-scroll-component";
+import BottomLoader from "@/components/bottomLoading";
 
 interface IWishlist {
   _id: string
@@ -17,9 +20,15 @@ interface IWishlist {
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState<string>('price_desc')
-  const {products, wishlist} = useProduct()
+  const { products, fetchProducts, loadMore, pagination, loadingMore } = useProduct()
   // const [wishlists, setWishlists] = useState<IWishlist[]>([])
-  
+
+  const fetchMore = async () => {
+    if (pagination && loadMore) {
+      await fetchProducts(pagination.currentPage + 1, true)
+    }
+  }
+
   // useEffect(() => {
   //   async function fetchWislists() {
   //     const resp = await fetch('http://localhost:3000/api/wishlists', {
@@ -48,11 +57,11 @@ export default function ListProduct() {
               <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                 <Heart className="w-5 h-5" />
                 My Wish List
-                {wishlist.length > 0 && (
+                {/* {wishlist.length > 0 && (
                   <span className="bg-white text-blue-600 px-2 py-0.5 rounded-full text-sm font-semibold">
                     {wishlist.length}
                   </span>
-                )}
+                )} */}
               </button>
             </div>
           </div>
@@ -139,15 +148,34 @@ export default function ListProduct() {
               </div>
 
               {/* Products Grid */}
-              <div className={viewMode === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' : 'space-y-4'}>
-                {products.map((product) => (
-                  <CardProduct key={product._id} product={product} />
-                ))}
-              </div>
+              <InfiniteScroll
+                dataLength={products.length}
+                next={fetchMore}
+                hasMore={loadMore}
+                loader={
+                  loadingMore && (
+                    <div className="flex justify-center py-6">
+                      <BottomLoader />
+                    </div>
+                  )
+                }
+                endMessage={
+                  <div className="text-center py-8 text-gray-400">
+                    Nothing more
+                  </div>
+                }
+              >
+                <div className={viewMode === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' : 'space-y-4'}>
+                  {products.map((product) => (
+                    <CardProduct key={product._id} product={product} />
+                  ))}
+                </div>
+              </InfiniteScroll>
+
             </main>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }
