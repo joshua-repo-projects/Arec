@@ -23,21 +23,39 @@ export default class Wishlist {
     static async createWishlist(payload: IWishlist): Promise<string> {
         wishlistSchema.parse(payload)
         const collection = this.connection()
-        await collection.insertOne(payload)
+
+        const wishlists = {
+            userId: new ObjectId(payload.userId),
+            productId: new ObjectId(payload.productId),
+            createdAt: new Date(),
+            updatedAt: new Date()
+        }
+
+        await collection.insertOne(wishlists)
 
         return 'Successfull add wishlist'
     }
 
     static async getAllWishtlists() {
         const collection = this.connection()
-        const data = await collection.find().toArray()
+
+        const payload = [{
+            $lookup: {
+                from: 'products',
+                localField: 'productId',
+                foreignField: '_id',
+                as: "Product"
+            }
+        }]
+
+        const data = await collection.aggregate(payload).sort({createdAt: -1}).toArray()
 
         return data
     }
 
     static async deleteWishlist() {
         const collection = this.connection()
-        const query = {_id: ObjectId}
+        const query = { _id: ObjectId }
         await collection.deleteOne(query)
 
         return 'Successfull delete wishlist'
