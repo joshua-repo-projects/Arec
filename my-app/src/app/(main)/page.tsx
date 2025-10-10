@@ -1,7 +1,7 @@
 'use client'
 
 import AcerNavbar from "@/components/navbar";
-import { ChevronLeft, ChevronRight, Eye, Heart, Menu, Search, ShoppingCart, Star, User } from "lucide-react";
+import { ChevronLeft, ChevronRight, Eye, Heart, Star } from "lucide-react";
 import { useState } from "react";
 
 interface Banner {

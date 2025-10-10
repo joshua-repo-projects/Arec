@@ -7,9 +7,9 @@ interface IPayload {
 }
 
 export const signToken = (payload: IPayload) => {
-    return jwt.sign(payload, 'rahasia')
+    return jwt.sign(payload, process.env.JWT_SECRET as string)
 }
 
 export const verifyToken = (token: string) => {
-    return jwt.verify(token, 'rahasia')
+    return jwt.verify(token, process.env.JWT_SECRET as string)
 }

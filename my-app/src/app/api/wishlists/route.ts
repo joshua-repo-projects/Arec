@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     }
 }
 
-export async function GET(req: NextRequest) {
+export async function GET() {
     try {
         const data = await Wishlist.getAllWishtlists()
         return Response.json({data}, {status: HTTPStatus.OK})

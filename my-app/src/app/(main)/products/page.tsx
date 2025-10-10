@@ -3,25 +3,23 @@
 import { useProduct } from "@/app/context/ProductContext";
 import CardProduct from "@/components/cardProduct";
 import AcerNavbar from "@/components/navbar";
-import { Grid, Heart, List, Loader2, Star } from "lucide-react";
-import { useContext, useEffect, useRef, useState } from "react";
-import { Product } from "./typescript.ts/interfaces";
-import { Loading } from "@/components/loading";
+import { Grid, Heart, List } from "lucide-react";
+import { useState } from "react";
+// import { Product } from "./typescript.ts/interfaces";
 import InfiniteScroll from "react-infinite-scroll-component";
 import BottomLoader from "@/components/bottomLoading";
 
-interface IWishlist {
-  _id: string
-  userId: string
-  productId: string
-  Product: Product[]
-}
+// interface IWishlist {
+//   _id: string
+//   userId: string
+//   productId: string
+//   Product: Product[]
+// }
 
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState<string>('price_desc')
   const { products, fetchProducts, loadMore, pagination, loadingMore } = useProduct()
-  // const [wishlists, setWishlists] = useState<IWishlist[]>([])
 
   const fetchMore = async () => {
     if (pagination && loadMore) {
@@ -132,13 +130,13 @@ export default function ListProduct() {
                     <div className="flex gap-2">
                       <button
                         onClick={() => setViewMode('grid')}
-                        className={`p-2 rounded ${viewMode === 'grid' ? 'bg-blue-100 text-blue-600' : 'text-gray-400'}`}
+                        className={`cursor-pointer p-2 rounded ${viewMode === 'grid' ? 'bg-blue-100 text-blue-600' : 'text-gray-400'}`}
                       >
                         <Grid className="w-5 h-5" />
                       </button>
                       <button
                         onClick={() => setViewMode('list')}
-                        className={`p-2 rounded ${viewMode === 'list' ? 'bg-blue-100 text-blue-600' : 'text-gray-400'}`}
+                        className={`cursor-pointer p-2 rounded ${viewMode === 'list' ? 'bg-blue-100 text-blue-600' : 'text-gray-400'}`}
                       >
                         <List className="w-5 h-5" />
                       </button>

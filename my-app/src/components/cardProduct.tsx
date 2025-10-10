@@ -14,7 +14,7 @@ export default function CardProduct({product}: TCardProductWithSpecial) {
 
 
     return (
-        <div key={product._id} className="bg-white rounded-lg shadow hover:shadow-lg transition group">
+        <div key={product._id} className="cursor-pointer bg-white rounded-lg shadow hover:shadow-lg transition group">
                     <div className="relative">
                       <img
                         src={product.thumbnail}
@@ -23,7 +23,7 @@ export default function CardProduct({product}: TCardProductWithSpecial) {
                       />
                       <button
                         onClick={() => toggleWishlist(product._id)}
-                        className={`absolute top-3 right-3 p-2 rounded-full transition ${wishlist.includes(product._id)
+                        className={`cursor-pointer absolute top-3 right-3 p-2 rounded-full transition ${wishlist.includes(product._id)
                             ? 'bg-red-500 text-white'
                             : 'bg-white text-gray-600 hover:bg-gray-100'
                           }`}
@@ -62,7 +62,7 @@ export default function CardProduct({product}: TCardProductWithSpecial) {
                         </div>
                       </div>
 
-                      <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition font-semibold">
+                      <button className="cursor-pointer w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition font-semibold">
                         Add to Cart
                       </button>
                     </div>

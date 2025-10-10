@@ -3,6 +3,7 @@
 import React from 'react';
 import { Search, Heart, Headphones, HelpCircle, User, ShoppingCart } from 'lucide-react';
 import SearchBar from './fragments/searchBar';
+import Link from 'next/link';
 
 export default function AcerNavbar() {
     return (
@@ -11,12 +12,12 @@ export default function AcerNavbar() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <a
+                        <Link
                             href="/"
                             className="font-sans text-6xl font-bold text-lime-800 leading-none relative top-[-10px]"
                         >
-                            acer
-                        </a>
+                            arec
+                        </Link>
                     </div>
 
                     {/* Search Bar */}

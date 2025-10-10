@@ -1,5 +1,3 @@
-import { ObjectId } from "mongodb";
-
 //product images
 export type TImages = string[]
 //-----

@@ -6,7 +6,7 @@ const client = new MongoClient(uri)
 let db: Db
 
 function connect() {
-    db = client.db('EcommerceArec')
+    db = client.db(process.env.MONGODB_NAME)
     return db
 }
 

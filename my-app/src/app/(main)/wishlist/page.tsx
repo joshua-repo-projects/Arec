@@ -3,55 +3,53 @@
 import AcerNavbar from "@/components/navbar";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { Share2, ShoppingCart, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { showError } from "@/helpers/alert";
+import { Loading } from "@/components/loading";
+import { ProductSpecial } from "../products/typescript.ts/extended-interfaces";
 
 
 interface WishListItem {
-    id: number;
-    name: string;
-    price: number;
-    originalPrice?: number;
-    image: string;
-    stock: 'IN STOCK' | 'OUT OF STOCK';
+    _id: string;
+    userId: string;
+    productId: string;
+    createdAt: string;
+    Product: ProductSpecial
 }
 
 export default function WishListPage() {
-    const [items, setItems] = useState<WishListItem[]>([
-        {
-            id: 1,
-            name: 'Predator Galea 311 Headset Gaming',
-            price: 674100,
-            originalPrice: 899000,
-            image: '/api/placeholder/150/150',
-            stock: 'OUT OF STOCK'
-        },
-        {
-            id: 2,
-            name: 'Predator Gaming Utility Backpack',
-            price: 1499000,
-            image: '/api/placeholder/150/150',
-            stock: 'IN STOCK'
-        },
-        {
-            id: 3,
-            name: 'Predator Gaming Mousepad (XL)',
-            price: 449100,
-            image: '/api/placeholder/150/150',
-            stock: 'IN STOCK'
+    const [items, setItems] = useState<WishListItem[]>([])
+    const [loading, setLoading] = useState(false)
+
+    async function fetchWishlists() {
+        try {
+            setLoading(true)
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlist`, {
+                method: 'GET',
+                headers: {
+                    'Content-type': 'application/json'
+                }
+            })
+            const data = await resp.json()
+            setItems(data.data)
+        } catch (error) {
+            console.log(error, '<<<error wishlist')
+            showError(error)
+        } finally {
+            setLoading(false)
         }
-    ])
-
-    const [quantities, setQuantities] = useState<{ [key: number]: number }>(
-        items.reduce((acc, item) => ({ ...acc, [item.id]: 1 }), {})
-    )
-
-    const removeItem = (id: number) => {
-        setItems(items.filter(el => el.id === id))
     }
 
-    const updateQuantity = (id: number, qty: number) => {
-        setQuantities({ ...quantities, [id]: qty })
-    }
+    useEffect(() => {
+        fetchWishlists()
+    }, [])
+
+
+    // const removeItem = (id: number) => {
+    //     setItems(items.filter(el => el._id === id))
+    // }
+
+    if(loading) return <Loading/>
 
     return (
         <>
@@ -67,22 +65,22 @@ export default function WishListPage() {
                         </div>
 
                         {items.map((item) => (
-                            <div key={item.id} className="mb-6 pb-6 border-b last:border-b-0 last:mb-0 last:pb-0">
+                            <div key={item._id} className="mb-6 pb-6 border-b last:border-b-0 last:mb-0 last:pb-0">
                                 <div className="flex gap-3 items-start mb-3">
                                     <button
-                                        onClick={() => removeItem(item.id)}
+                                        // onClick={() => removeItem(item.id)}
                                         className="cursor-pointer text-gray-400 hover:text-gray-600 mt-1"
                                     >
                                         <X size={18} />
                                     </button>
                                     <div className="flex-1">
-                                        <img src={item.image} alt={item.name} className="w-16 h-16 object-contain mb-2" />
-                                        <p className="text-sm text-gray-800 font-medium leading-tight line-clamp-3">{item.name}</p>
+                                        <img src={item.Product.thumbnail} alt={item.Product.name} className="w-16 h-16 object-contain mb-2" />
+                                        <p className="text-sm text-gray-800 font-medium leading-tight line-clamp-3">{item.Product.name}</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="text-xl font-bold text-gray-900 mb-2">{formatPrice(item.price)}</p>
-                                    {item.stock === 'IN STOCK' ? (
+                                    <p className="text-xl font-bold text-gray-900 mb-2">{formatPrice(item.Product.specialPrice ?? item.Product.price * 0.9)}</p>
+                                    {item.Product.status === 'Available now' ? (
                                         <button className="cursor-pointer w-full bg-green-500 hover:bg-green-600 text-white py-2 px-3 rounded flex items-center justify-center gap-2">
                                             <ShoppingCart size={16} />
                                         </button>
@@ -118,47 +116,38 @@ export default function WishListPage() {
                         <div className="p-6">
                             <div className="grid grid-cols-3 gap-6">
                                 {items.map((item) => (
-                                    <div key={item.id} className="border border-gray-200 rounded p-4 hover:shadow-lg transition-shadow">
+                                    <div key={item._id} className="border border-gray-200 rounded p-4 hover:shadow-lg transition-shadow">
                                         <div className="relative">
                                             <button
-                                                onClick={() => removeItem(item.id)}
+                                                // onClick={() => removeItem(item.id)}
                                                 className="cursor-pointer absolute top-0 right-0 text-gray-400 hover:text-gray-600"
                                             >
                                                 <X size={20} />
                                             </button>
-                                            <img src={item.image} alt={item.name} className="w-full h-40 object-contain mb-4" />
+                                            <img src={item.Product.thumbnail} alt={item.Product.name} className="w-full h-40 object-contain mb-4" />
                                         </div>
 
-                                        <h3 className="text-sm font-medium text-gray-800 mb-2 h-10">{item.name}</h3>
+                                        <h3 className="text-sm font-medium text-gray-800 mb-2 h-10">{item.Product.name}</h3>
 
                                         <div className="mb-3">
-                                            <p className="text-lg font-bold text-gray-800">{formatPrice(item.price)}</p>
-                                            {item.originalPrice && (
-                                                <p className="text-sm text-gray-400 line-through">{formatPrice(item.originalPrice)}</p>
+                                            <p className="text-lg font-bold text-gray-800">{formatPrice(item.Product.specialPrice ?? item.Product.price * 0.9)}</p>
+                                            {item.Product.price && (
+                                                <p className="text-sm text-gray-400 line-through">{formatPrice(item.Product.price)}</p>
                                             )}
                                         </div>
 
                                         <div className="flex items-center gap-2 mb-3">
-                                            <span className="text-sm text-gray-600">Qty</span>
-                                            <select
-                                                value={quantities[item.id]}
-                                                onChange={(e) => updateQuantity(item.id, Number(e.target.value))}
-                                                className="border border-gray-300 rounded px-2 py-1 text-sm"
-                                                disabled={item.stock === 'OUT OF STOCK'}
-                                            >
-                                                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(n => <option key={n}>{n}</option>)}
-                                            </select>
-                                            {item.stock === 'IN STOCK' ? (
+                                            {item.Product.status === 'Available now' ? (
                                                 <span className="ml-2 flex items-center gap-1">
                                                     <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                                                    <span className="text-xs text-green-600 font-medium">{item.stock}</span>
+                                                    <span className="text-xs text-green-600 font-medium">{item.Product.status}</span>
                                                 </span>
                                             ) : (
-                                                <span className="ml-2 text-xs text-red-600 font-medium">{item.stock}</span>
+                                                <span className="ml-2 text-xs text-red-600 font-medium">{item.Product.status}</span>
                                             )}
                                         </div>
 
-                                        {item.stock === 'IN STOCK' ? (
+                                        {item.Product.status === 'Available now' ? (
                                             <button className="cursor-pointer w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded mb-2 flex items-center justify-center gap-2">
                                                 <ShoppingCart size={16} />
                                             </button>
@@ -173,7 +162,7 @@ export default function WishListPage() {
                                             <span className="text-gray-300">|</span>
                                             <button className="cursor-pointer text-green-600 hover:underline">Edit</button>
                                             <span className="text-gray-300">|</span>
-                                            <button className="text-green-600 hover:underline">Remove Item</button>
+                                            <button className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
                                         </div>
                                     </div>
                                 ))}

@@ -14,7 +14,7 @@ export async function middleware(req: NextRequest) {
             if (protectedPaths.includes(req.nextUrl.pathname)) {
                 const cookieStore = await cookies()
                 const token = cookieStore.get('access_token')
-                if(!token) throw new BaseError('Unauhtorized', HTTPStatus.Unauthorized)
+                if(!token) throw new BaseError('Unauthorized', HTTPStatus.Unauthorized)
 
                 const secret = new TextEncoder().encode('rahasia')
                 const jwt = token.value
