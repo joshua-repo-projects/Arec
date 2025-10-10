@@ -8,46 +8,22 @@ import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import BottomLoader from "@/components/bottomLoading";
 import { Loading } from "@/components/loading";
-import { showError } from "@/helpers/alert";
-import { WishListItem } from "../wishlist/page";
-import { useRouter } from "next/navigation";
+import { IWishListItem } from "../wishlist/page";
 import { formatPrice } from "@/helpers/FormatMoney";
+import { ProductSpecial } from "./typescript.ts/extended-interfaces";
 
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState<string>('price_desc')
-  const { products, fetchProducts, loadMore, pagination, loadingMore, toggleWishlist } = useProduct()
+  const { products, fetchProducts, loadMore, pagination, loadingMore, toggleWishlist, fetchWishlists, wishlists } = useProduct()
   const [loading, setLoading] = useState(false)
-  const [items, setItems] = useState<WishListItem[]>([])
+  // const [items, setItems] = useState<IWishListItem[]>([])
 
   const fetchMore = async () => {
     if (pagination && loadMore) {
       await fetchProducts(pagination.currentPage + 1, true)
     }
   }
-
-  async function fetchWishlists() {
-    try {
-      setLoading(true)
-      const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
-        method: 'GET',
-        credentials: 'include'
-      })
-      const data = await resp.json()
-
-      if (!resp.ok) {
-        return
-      }
-
-      setItems(data.data || [])
-    } catch (error) {
-      console.log(error, '<<<error wishlist')
-      showError(error)
-    } finally {
-      setLoading(false)
-    }
-  }
-
 
   useEffect(() => {
     fetchWishlists()
@@ -69,9 +45,9 @@ export default function ListProduct() {
               <button className="cursor-pointer flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                 <Heart className="w-5 h-5" />
                 My Wish List
-                {items.length > 0 && (
+                {wishlists.length > 0 && (
                   <span className="bg-white text-blue-600 px-2 py-0.5 rounded-full text-sm font-semibold">
-                    {items.length}
+                    {wishlists.length}
                   </span>
                 )}
               </button>
@@ -86,14 +62,14 @@ export default function ListProduct() {
               <div className="bg-white rounded-lg shadow p-6 sticky top-4">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">My Wish List</h2>
 
-                {items.length === 0 ? (
+                {wishlists.length === 0 ? (
                   <p className="text-gray-600">You have no items in your wish list.</p>
                 ) : (
                   <div className="space-y-3">
-                    {items.map((item) => (
+                    {wishlists.map((item: IWishListItem) => (
                       <div key={item._id} className="flex gap-3 p-3 border rounded-lg hover:bg-gray-50 transition">
-                        {item.Product.map((product) => (
-                          <>
+                        {item.Product.map((product: ProductSpecial) => (
+                          <div key={`${item._id}-${product._id}`} className="flex gap-3 items-start">
                             <img
                               src={product.thumbnail}
                               alt={product.name}
@@ -112,7 +88,7 @@ export default function ListProduct() {
                             >
                               <Heart className="cursor-pointer w-5 h-5 fill-current" />
                             </button>
-                          </>
+                          </div>
                         ))}
                       </div>
                     ))}

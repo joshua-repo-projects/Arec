@@ -10,7 +10,7 @@ import { ProductSpecial } from "../products/typescript.ts/extended-interfaces";
 import { useRouter } from "next/navigation";
 
 
-export interface WishListItem {
+export interface IWishListItem {
     _id: string;
     userId: string;
     productId: string;
@@ -19,7 +19,7 @@ export interface WishListItem {
 }
 
 export default function WishListPage() {
-    const [items, setItems] = useState<WishListItem[]>([])
+    const [items, setItems] = useState<IWishListItem[]>([])
     const [loading, setLoading] = useState(false)
     const router = useRouter()
 

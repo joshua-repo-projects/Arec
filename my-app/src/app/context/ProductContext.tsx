@@ -1,9 +1,10 @@
 'use client'
 
 import { createContext, ReactNode, useContext, useEffect, useState } from "react"
-import { Product } from "../(main)/products/typescript.ts/interfaces"
 import { showError } from "@/helpers/alert"
 import { Loading } from "@/components/loading"
+import { IWishListItem } from "../(main)/wishlist/page"
+import { ProductSpecial } from "../(main)/products/typescript.ts/extended-interfaces"
 
 interface IPagination {
     totalProducts: number
@@ -13,20 +14,21 @@ interface IPagination {
 }
 
 type ProductContextType = {
-    products: Product[]
+    products: ProductSpecial[]
     pagination: IPagination | null
-    wishlist: string[]
+    wishlists: IWishListItem[]
     loadMore: boolean
     toggleWishlist: (productId: string) => void
     fetchProducts: (page?: number, append?: boolean) => Promise<void>
     loadingMore: boolean
+    fetchWishlists: () => Promise<void>
 }
 
 export const ProductContext = createContext<ProductContextType | undefined>(undefined)
 
 export function ProductProvider({ children }: { children: ReactNode }) {
-    const [products, setProducts] = useState<Product[]>([])
-    const [wishlist, setWishList] = useState<string[]>([])
+    const [products, setProducts] = useState<ProductSpecial[]>([])
+    const [wishlists, setWishLists] = useState<IWishListItem[]>([])
     const [pagination, setPagination] = useState<IPagination | null>(null)
     const [loadMore, setLoadMore] = useState(true)
     const [loading, setLoading] = useState(false)
@@ -52,52 +54,82 @@ export function ProductProvider({ children }: { children: ReactNode }) {
             showError(error)
         } finally {
             await new Promise((reload) => setTimeout(reload, 500))
-            if(append) setLoadingMore(false)
+            if (append) setLoadingMore(false)
+            setLoading(false)
+        }
+    }
+
+    async function fetchWishlists() {
+        try {
+            setLoading(true)
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
+                method: 'GET',
+                credentials: 'include'
+            })
+            const data = await resp.json()
+
+            if (!resp.ok) {
+                return
+            }
+
+            setWishLists(data.data)
+        } catch (error) {
+            console.log(error, '<<<error wishlist')
+            showError(error)
+        } finally {
             setLoading(false)
         }
     }
 
     useEffect(() => {
         fetchProducts(1, false)
+        fetchWishlists()
     }, [])
 
     const toggleWishlist = async (productId: string): Promise<void> => {
-        setWishList((prev: string[]) =>
-            prev.includes(productId)
-                ? prev.filter((id: string) => id !== productId)
-                : [...prev, productId]
-        );
+        const productIds = wishlists.flatMap(el => el.Product.map(p => p._id))
+        if (productIds.includes(productId)) {
+        setWishLists(prev =>
+            prev.filter(item =>
+                !item.Product.some(p => p._id === productId)
+            )
+        )
+    }
 
         try {
-          setLoading(true)
-          const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
-            method: "POST",
-            credentials: 'include',
-            headers: {
-              'Content-type': 'application/json'
-            },
-            body: JSON.stringify({ productId })
-          })
-    
-          const data = await resp.json()
-          if (!resp.ok) {
-            if (resp.status === 401) {
-                window.location.href = '/login'
-            } else {
-                showError(data.message)
+            setLoading(true)
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
+                method: "POST",
+                credentials: 'include',
+                headers: {
+                    'Content-type': 'application/json'
+                },
+                body: JSON.stringify({ productId })
+            })
+
+            const data = await resp.json()
+            if (!resp.ok) {
+                if (resp.status === 401) {
+                    window.location.href = '/login'
+                } else {
+                    showError(data.message)
+                }
+                return;
             }
-            return;
-          }
+
+            if (resp.ok) {
+                await fetchWishlists();
+            }
         } catch (error) {
-          console.log(error, '<<<  add wishlist at product page')
-          showError(error)
+            console.log(error, '<<<  add wishlist at product page')
+            showError(error)
         } finally {
-          setLoading(false)
+            setLoading(false)
         }
     };
 
     return (
-        <ProductContext.Provider value={{ products, wishlist, toggleWishlist, pagination, fetchProducts, loadMore, loadingMore }}>
+        <ProductContext.Provider value={{ products, wishlists, toggleWishlist, pagination, fetchProducts, loadMore, loadingMore, fetchWishlists }}>
             {children}
             {loading && (
                 <div className="fixed inset-0 flex justify-center items-center bg-black/30 backdrop-blur-sm z-50">
