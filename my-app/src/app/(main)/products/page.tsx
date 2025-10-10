@@ -4,22 +4,21 @@ import { useProduct } from "@/app/context/ProductContext";
 import CardProduct from "@/components/cardProduct";
 import AcerNavbar from "@/components/navbar";
 import { Grid, Heart, List } from "lucide-react";
-import { useState } from "react";
-// import { Product } from "./typescript.ts/interfaces";
+import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import BottomLoader from "@/components/bottomLoading";
-
-// interface IWishlist {
-//   _id: string
-//   userId: string
-//   productId: string
-//   Product: Product[]
-// }
+import { Loading } from "@/components/loading";
+import { showError } from "@/helpers/alert";
+import { WishListItem } from "../wishlist/page";
+import { useRouter } from "next/navigation";
+import { formatPrice } from "@/helpers/FormatMoney";
 
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState<string>('price_desc')
-  const { products, fetchProducts, loadMore, pagination, loadingMore } = useProduct()
+  const { products, fetchProducts, loadMore, pagination, loadingMore, toggleWishlist } = useProduct()
+  const [loading, setLoading] = useState(false)
+  const [items, setItems] = useState<WishListItem[]>([])
 
   const fetchMore = async () => {
     if (pagination && loadMore) {
@@ -27,21 +26,36 @@ export default function ListProduct() {
     }
   }
 
-  // useEffect(() => {
-  //   async function fetchWislists() {
-  //     const resp = await fetch('http://localhost:3000/api/wishlists', {
-  //       method: 'GET',
-  //       headers: {
-  //         'Content-type': 'application/json'
-  //       }
-  //     })
-  //     const data = await resp.json()
-  //     setWishlists(data)
-  //   }
-  //   fetchWislists()
-  // }, [])
+  async function fetchWishlists() {
+    try {
+      setLoading(true)
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
+        method: 'GET',
+        credentials: 'include'
+      })
+      const data = await resp.json()
+
+      if (!resp.ok) {
+        return
+      }
+
+      setItems(data.data || [])
+    } catch (error) {
+      console.log(error, '<<<error wishlist')
+      showError(error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+
+  useEffect(() => {
+    fetchWishlists()
+  }, [])
 
   // const wishlistProducts = products.filter(p => wishlist.includes(p._id))
+
+  if (loading) return <Loading />
 
   return (
     <>
@@ -52,14 +66,14 @@ export default function ListProduct() {
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <h1 className="text-3xl font-bold text-gray-900">Gaming Laptops</h1>
-              <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+              <button className="cursor-pointer flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                 <Heart className="w-5 h-5" />
                 My Wish List
-                {/* {wishlist.length > 0 && (
+                {items.length > 0 && (
                   <span className="bg-white text-blue-600 px-2 py-0.5 rounded-full text-sm font-semibold">
-                    {wishlist.length}
+                    {items.length}
                   </span>
-                )} */}
+                )}
               </button>
             </div>
           </div>
@@ -72,34 +86,38 @@ export default function ListProduct() {
               <div className="bg-white rounded-lg shadow p-6 sticky top-4">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">My Wish List</h2>
 
-                {/* {wishlistProducts.length === 0 ? (
+                {items.length === 0 ? (
                   <p className="text-gray-600">You have no items in your wish list.</p>
                 ) : (
                   <div className="space-y-3">
-                    {wishlistProducts.map((product) => (
-                      <div key={product.id} className="flex gap-3 p-3 border rounded-lg hover:bg-gray-50 transition">
-                        <img
-                          src={product.image}
-                          alt={product.name}
-                          className="w-20 h-20 object-cover rounded"
-                        />
-                        <div className="flex-1 min-w-0">
-                          <h3 className="font-semibold text-sm truncate">{product.name}</h3>
-                          <p className="text-xs text-gray-500 truncate">{product.model}</p>
-                          <p className="text-sm font-bold text-red-600 mt-1">
-                            {formatPrice(product.specialPrice)}
-                          </p>
-                        </div>
-                        <button
-                          onClick={() => toggleWishlist(product.id)}
-                          className="text-red-500 hover:text-red-700"
-                        >
-                          <Heart className="w-5 h-5 fill-current" />
-                        </button>
+                    {items.map((item) => (
+                      <div key={item._id} className="flex gap-3 p-3 border rounded-lg hover:bg-gray-50 transition">
+                        {item.Product.map((product) => (
+                          <>
+                            <img
+                              src={product.thumbnail}
+                              alt={product.name}
+                              className="w-20 h-20 object-cover rounded"
+                            />
+                            <div className="flex-1 min-w-0">
+                              <h3 className="font-semibold text-sm truncate">{product.name}</h3>
+                              <p className="text-xs text-gray-500 truncate">{product.category}</p>
+                              <p className="text-sm font-bold text-red-600 mt-1">
+                                {formatPrice(product.specialPrice ?? product.price * 0.9)}
+                              </p>
+                            </div>
+                            <button
+                              onClick={() => toggleWishlist(product._id)}
+                              className="text-red-500 hover:text-red-700"
+                            >
+                              <Heart className="cursor-pointer w-5 h-5 fill-current" />
+                            </button>
+                          </>
+                        ))}
                       </div>
                     ))}
                   </div>
-                )} */}
+                )}
               </div>
             </aside>
 

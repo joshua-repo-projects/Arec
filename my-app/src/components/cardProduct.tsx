@@ -1,5 +1,4 @@
 import { ProductSpecial } from "@/app/(main)/products/typescript.ts/extended-interfaces";
-import { Product } from "@/app/(main)/products/typescript.ts/interfaces";
 import { useProduct } from "@/app/context/ProductContext";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { Heart, Star } from "lucide-react";
@@ -11,7 +10,6 @@ type TCardProductWithSpecial = {
 
 export default function CardProduct({product}: TCardProductWithSpecial) {
     const {wishlist, toggleWishlist} = useProduct()
-
 
     return (
         <div key={product._id} className="cursor-pointer bg-white rounded-lg shadow hover:shadow-lg transition group">

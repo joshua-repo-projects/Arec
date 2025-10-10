@@ -290,10 +290,10 @@ export default function Home() {
                   </span>
                   <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition">
                     <button className="cursor-pointer bg-white p-2 rounded-full hover:bg-blue-600 hover:text-white transition">
-                      <Heart className="w-4 h-4" />
+                      <Heart className="cursor-pointer w-4 h-4" />
                     </button>
                     <button className="cursor-pointer bg-white p-2 rounded-full hover:bg-blue-600 hover:text-white transition">
-                      <Eye className="w-4 h-4" />
+                      <Eye className="cursor-pointer w-4 h-4" />
                     </button>
                   </div>
                 </div>
@@ -301,7 +301,7 @@ export default function Home() {
                 <div className="p-4">
                   <h3 className="font-semibold mb-2 line-clamp-2 h-12">{product.name}</h3>
                   <div className="flex items-center gap-1 mb-2">
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    <Star className="cursor-pointer w-4 h-4 fill-yellow-400 text-yellow-400" />
                     <span className="text-sm font-medium">{product.rating}</span>
                     <span className="text-xs text-gray-500">({product.reviews})</span>
                   </div>

@@ -17,7 +17,7 @@ type ProductContextType = {
     pagination: IPagination | null
     wishlist: string[]
     loadMore: boolean
-    toggleWishlist: (id: string) => void
+    toggleWishlist: (productId: string) => void
     fetchProducts: (page?: number, append?: boolean) => Promise<void>
     loadingMore: boolean
 }
@@ -61,12 +61,39 @@ export function ProductProvider({ children }: { children: ReactNode }) {
         fetchProducts(1, false)
     }, [])
 
-    const toggleWishlist = (productId: string): void => {
+    const toggleWishlist = async (productId: string): Promise<void> => {
         setWishList((prev: string[]) =>
             prev.includes(productId)
                 ? prev.filter((id: string) => id !== productId)
                 : [...prev, productId]
         );
+
+        try {
+          setLoading(true)
+          const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {
+            method: "POST",
+            credentials: 'include',
+            headers: {
+              'Content-type': 'application/json'
+            },
+            body: JSON.stringify({ productId })
+          })
+    
+          const data = await resp.json()
+          if (!resp.ok) {
+            if (resp.status === 401) {
+                window.location.href = '/login'
+            } else {
+                showError(data.message)
+            }
+            return;
+          }
+        } catch (error) {
+          console.log(error, '<<<  add wishlist at product page')
+          showError(error)
+        } finally {
+          setLoading(false)
+        }
     };
 
     return (

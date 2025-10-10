@@ -10,7 +10,7 @@ import { ProductSpecial } from "../products/typescript.ts/extended-interfaces";
 import { useRouter } from "next/navigation";
 
 
-interface WishListItem {
+export interface WishListItem {
     _id: string;
     userId: string;
     productId: string;
