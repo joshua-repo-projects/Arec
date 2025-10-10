@@ -39,12 +39,7 @@ export function ProductProvider({ children }: { children: ReactNode }) {
         else setLoading(true)
 
         try {
-            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products?page=${page}`, {
-                method: 'GET',
-                headers: {
-                    'Content-type': 'application/json'
-                }
-            })
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products?page=${page}`)
             const data = await resp.json()
             const allProducts = data.data.data
             setProducts((el) =>

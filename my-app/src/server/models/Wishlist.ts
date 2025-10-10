@@ -36,19 +36,27 @@ export default class Wishlist {
         return 'Successfull add wishlist'
     }
 
-    static async getAllWishtlists() {
+    static async getWishlistById(userId: ObjectId) {
         const collection = this.connection()
 
-        const payload = [{
-            $lookup: {
-                from: 'products',
-                localField: 'productId',
-                foreignField: '_id',
-                as: "Product"
+        const payload = [
+            {
+                $match: { userId: new ObjectId(userId) }
+            },
+            {
+                $lookup: {
+                    from: 'products',
+                    localField: 'productId',
+                    foreignField: '_id',
+                    as: "Product"
+                }
+            },
+            {
+                $sort: { createdAt: -1 }
             }
-        }]
+        ]
 
-        const data = await collection.aggregate(payload).sort({createdAt: -1}).toArray()
+        const data = await collection.aggregate(payload).toArray()
 
         return data
     }

@@ -11,5 +11,5 @@ export const signToken = (payload: IPayload) => {
 }
 
 export const verifyToken = (token: string) => {
-    return jwt.verify(token, process.env.JWT_SECRET as string)
+    return jwt.verify(token, process.env.JWT_SECRET as string) as IPayload
 }
