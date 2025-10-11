@@ -4,6 +4,7 @@ import { showError } from "@/helpers/alert"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { setCookie } from "./action"
+import Link from "next/link"
 
 export default function LoginPage() {
     const [forms, setForm] = useState({
@@ -86,6 +87,12 @@ export default function LoginPage() {
                     >
                         Login
                     </button>
+                    <p className="text-center text-sm text-gray-500 mt-4">
+                        Don't have an account?{" "}
+                        <Link href="/register" className="text-[#83b81a] hover:underline font-medium">
+                            Login
+                        </Link>
+                    </p>
                 </form>
             </div>
         </div>

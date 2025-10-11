@@ -5,7 +5,6 @@ import { useProduct } from "@/app/context/ProductContext";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { Heart, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 
 type TCardProductWithSpecial = {
@@ -14,14 +13,10 @@ type TCardProductWithSpecial = {
 
 export default function CardProduct({ product }: TCardProductWithSpecial) {
   const { wishlists, toggleWishlist } = useProduct()
-  const [loading, setLoading] = useState(false)
   const router = useRouter()
 
   const handleWishlist = async (e: React.MouseEvent) => {
     e.stopPropagation()
-    const isWishlisted = wishlists.some(el => el.Product.some(p => p._id === product._id))
-    if (isWishlisted || loading) return
-
     toggleWishlist(product._id)
   }
 

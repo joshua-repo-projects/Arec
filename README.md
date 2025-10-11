@@ -36,7 +36,7 @@ Pada challenge ini, kamu diminta untuk membuat aplikasi client-server dengan det
   - [v] Fitur Add to wishlist
 - [v] Halaman Detail Product
   - [v] Fitur Add to wishlist
-  - [ ] Implementasi Meta Tag di Head sesuai detail product
+  - [v] Implementasi Meta Tag di Head sesuai detail product
 - [v] Halaman Wishlist Product
   - [v] List Wishlist
   - [v] Fitur Remove Wishlist

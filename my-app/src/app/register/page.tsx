@@ -2,6 +2,7 @@
 
 import { Loading } from "@/components/loading"
 import { showError } from "@/helpers/alert"
+import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 
@@ -53,7 +54,7 @@ export default function LoginPage() {
     const isFilled = forms.email.trim().length > 0 || forms.password.trim().length > 0
 
     if (loading) {
-        return <Loading/>
+        return <Loading />
     }
 
     return (
@@ -108,6 +109,12 @@ export default function LoginPage() {
                     >
                         Login
                     </button>
+                    <p className="text-center text-sm text-gray-500 mt-4">
+                        Already have an account?{" "}
+                        <Link href="/login" className="text-[#83b81a] hover:underline font-medium">
+                            Login
+                        </Link>
+                    </p>
                 </form>
             </div>
         </div>

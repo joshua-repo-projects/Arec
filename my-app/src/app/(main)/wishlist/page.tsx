@@ -52,7 +52,8 @@ export default function WishListPage() {
         }
     }
 
-    const handleRemove = async (id: string) => {
+    const handleRemove = async (e: React.MouseEvent, id: string) => {
+        e.stopPropagation()
         try {
             setLoading(true)
             const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists/${id}`, {
@@ -106,7 +107,7 @@ export default function WishListPage() {
                                             key={product._id}>
                                                 <div className="flex gap-3 items-start mb-3">
                                                     <button
-                                                        onClick={() => handleRemove(item._id)}
+                                                        onClick={(e) => handleRemove(e, item._id)}
                                                         className="cursor-pointer text-gray-400 hover:text-gray-600 mt-1"
                                                     >
                                                         <X size={18} />
@@ -170,7 +171,7 @@ export default function WishListPage() {
                                                     key={product._id}>
                                                         <div className="relative">
                                                             <button
-                                                                onClick={() => handleRemove(item._id)}
+                                                                onClick={(e) => handleRemove(e, item._id)}
                                                                 className="cursor-pointer absolute top-0 right-0 text-gray-400 hover:text-gray-600"
                                                             >
                                                                 <X size={20} />
@@ -214,7 +215,7 @@ export default function WishListPage() {
                                                             <button className="cursor-pointer text-green-600 hover:underline">Edit</button>
                                                             <span className="text-gray-300">|</span>
                                                             <button
-                                                                onClick={() => handleRemove(item._id)}
+                                                                onClick={(e) => handleRemove(e, item._id)}
                                                                 className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
                                                         </div>
                                                     </div>

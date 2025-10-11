@@ -74,7 +74,7 @@ export default function AcerNavbar() {
                             onMouseLeave={handleMouseLeave}
                         >
                             <button
-                                className={`p-2 rounded-full transition ${loggedIn
+                                className={`cursor-pointer p-2 rounded-full transition ${loggedIn
                                     ? 'bg-[#83b81a] text-white'
                                     : 'text-gray-600 hover:text-[#83b81a]'
                                     }`}
