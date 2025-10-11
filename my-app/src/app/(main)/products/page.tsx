@@ -11,13 +11,14 @@ import { Loading } from "@/components/loading";
 import { IWishListItem } from "../wishlist/page";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { ProductSpecial } from "./typescript.ts/extended-interfaces";
+import { useRouter } from "next/navigation";
 
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [sortBy, setSortBy] = useState<string>('price_desc')
   const { products, fetchProducts, loadMore, pagination, loadingMore, toggleWishlist, fetchWishlists, wishlists } = useProduct()
   const [loading, setLoading] = useState(false)
-  // const [items, setItems] = useState<IWishListItem[]>([])
+  const router = useRouter()
 
   const fetchMore = async () => {
     if (pagination && loadMore) {
@@ -42,7 +43,9 @@ export default function ListProduct() {
           <div className="max-w-7xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <h1 className="text-3xl font-bold text-gray-900">Gaming Laptops</h1>
-              <button className="cursor-pointer flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+              <button
+                onClick={() => router.push('/wishlist')}
+                className="cursor-pointer flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                 <Heart className="w-5 h-5" />
                 My Wish List
                 {wishlists.length > 0 && (
@@ -62,38 +65,40 @@ export default function ListProduct() {
               <div className="bg-white rounded-lg shadow p-6 sticky top-4">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">My Wish List</h2>
 
-                {wishlists.length === 0 ? (
-                  <p className="text-gray-600">You have no items in your wish list.</p>
-                ) : (
-                  <div className="space-y-3">
-                    {wishlists.map((item: IWishListItem) => (
-                      <div key={item._id} className="flex gap-3 p-3 border rounded-lg hover:bg-gray-50 transition">
-                        {item.Product.map((product: ProductSpecial) => (
-                          <div key={`${item._id}-${product._id}`} className="flex gap-3 items-start">
-                            <img
-                              src={product.thumbnail}
-                              alt={product.name}
-                              className="w-20 h-20 object-cover rounded"
-                            />
-                            <div className="flex-1 min-w-0">
-                              <h3 className="font-semibold text-sm truncate">{product.name}</h3>
-                              <p className="text-xs text-gray-500 truncate">{product.category}</p>
-                              <p className="text-sm font-bold text-red-600 mt-1">
-                                {formatPrice(product.specialPrice ?? product.price * 0.9)}
-                              </p>
+                <div className="max-h-[450px] overflow-y-auto pr-2 space-y-4">
+                  {wishlists.length === 0 ? (
+                    <p className="text-gray-600">You have no items in your wish list.</p>
+                  ) : (
+                    <div className="space-y-3">
+                      {wishlists.map((item: IWishListItem) => (
+                        <div key={item._id} className="flex gap-3 p-3 border rounded-lg hover:bg-gray-50 transition">
+                          {item.Product.map((product: ProductSpecial) => (
+                            <div key={`${item._id}-${product._id}`} className="flex gap-3 items-start">
+                              <img
+                                src={product.thumbnail}
+                                alt={product.name}
+                                className="w-20 h-20 object-cover rounded"
+                              />
+                              <div className="flex-1 min-w-0">
+                                <h3 className="font-semibold text-sm truncate">{product.name}</h3>
+                                <p className="text-xs text-gray-500 truncate">{product.category}</p>
+                                <p className="text-sm font-bold text-red-600 mt-1">
+                                  {formatPrice(product.specialPrice ?? product.price * 0.9)}
+                                </p>
+                              </div>
+                              <button
+                                onClick={() => toggleWishlist(product._id)}
+                                className="text-red-500 hover:text-red-700"
+                              >
+                                <Heart className="cursor-pointer w-5 h-5 fill-current" />
+                              </button>
                             </div>
-                            <button
-                              onClick={() => toggleWishlist(product._id)}
-                              className="text-red-500 hover:text-red-700"
-                            >
-                              <Heart className="cursor-pointer w-5 h-5 fill-current" />
-                            </button>
-                          </div>
-                        ))}
-                      </div>
-                    ))}
-                  </div>
-                )}
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </div>
             </aside>
 

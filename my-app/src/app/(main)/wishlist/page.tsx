@@ -22,6 +22,12 @@ export default function WishListPage() {
     const [items, setItems] = useState<IWishListItem[]>([])
     const [loading, setLoading] = useState(false)
     const router = useRouter()
+    const [loggedIn, setLoggedIn] = useState(false)
+
+    useEffect(() => {
+        const token = cookieStore.get('access_token')
+        setLoggedIn(!!token)
+    }, [])
 
     async function fetchWishlists() {
         try {
@@ -50,11 +56,6 @@ export default function WishListPage() {
         fetchWishlists()
     }, [])
 
-
-    // const removeItem = (id: number) => {
-    //     setItems(items.filter(el => el._id === id))
-    // }
-
     if (loading) return <Loading />
 
     return (
@@ -69,39 +70,40 @@ export default function WishListPage() {
                                 <h4 className="font-semibold text-gray-800">My Wish List</h4>
                                 <span className="text-sm text-gray-500">(3 items)</span>
                             </div>
-
-                            {items.map((item) => (
-                                <div key={item._id} className="mb-6 pb-6 border-b last:border-b-0 last:mb-0 last:pb-0">
-                                    {item.Product.map((product) => (
-                                        <>
-                                            <div key={product._id} className="flex gap-3 items-start mb-3">
-                                                <button
-                                                    // onClick={() => removeItem(item.id)}
-                                                    className="cursor-pointer text-gray-400 hover:text-gray-600 mt-1"
-                                                >
-                                                    <X size={18} />
-                                                </button>
-                                                <div className="flex-1">
-                                                    <img src={product.thumbnail} alt={product.name} className="w-16 h-16 object-contain mb-2" />
-                                                    <p className="text-sm text-gray-800 font-medium leading-tight line-clamp-3">{product.name}</p>
+                            <div className="max-h-[600px] overflow-y-auto pr-2 space-y-4">
+                                {loggedIn && items.map((item) => (
+                                    <div key={item._id} className="mb-6 pb-6 border-b last:border-b-0 last:mb-0 last:pb-0">
+                                        {item.Product.map((product) => (
+                                            <div key={product._id}>
+                                                <div className="flex gap-3 items-start mb-3">
+                                                    <button
+                                                        // onClick={() => removeItem(item.id)}
+                                                        className="cursor-pointer text-gray-400 hover:text-gray-600 mt-1"
+                                                    >
+                                                        <X size={18} />
+                                                    </button>
+                                                    <div className="flex-1">
+                                                        <img src={product.thumbnail} alt={product.name} className="w-16 h-16 object-contain mb-2" />
+                                                        <p className="text-sm text-gray-800 font-medium leading-tight line-clamp-3">{product.name}</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p className="text-xl font-bold text-gray-900 mb-2">{formatPrice(product.specialPrice ?? product.price * 0.9)}</p>
+                                                    {product.status === 'Available now' ? (
+                                                        <button className="cursor-pointer w-full bg-green-500 hover:bg-green-600 text-white py-2 px-3 rounded flex items-center justify-center gap-2">
+                                                            <ShoppingCart size={16} />
+                                                        </button>
+                                                    ) : (
+                                                        <button className="cursor-pointer w-full border-2 border-gray-800 hover:bg-gray-800 hover:text-white text-gray-800 py-2 px-3 rounded font-medium">
+                                                            Details
+                                                        </button>
+                                                    )}
                                                 </div>
                                             </div>
-                                            <div>
-                                                <p className="text-xl font-bold text-gray-900 mb-2">{formatPrice(product.specialPrice ?? product.price * 0.9)}</p>
-                                                {product.status === 'Available now' ? (
-                                                    <button className="cursor-pointer w-full bg-green-500 hover:bg-green-600 text-white py-2 px-3 rounded flex items-center justify-center gap-2">
-                                                        <ShoppingCart size={16} />
-                                                    </button>
-                                                ) : (
-                                                    <button className="cursor-pointer w-full border-2 border-gray-800 hover:bg-gray-800 hover:text-white text-gray-800 py-2 px-3 rounded font-medium">
-                                                        Details
-                                                    </button>
-                                                )}
-                                            </div>
-                                        </>
-                                    ))}
-                                </div>
-                            ))}
+                                        ))}
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
 
@@ -133,7 +135,7 @@ export default function WishListPage() {
                                         {items.map((item) => (
                                             <div key={item._id} className="border border-gray-200 rounded p-4 hover:shadow-lg transition-shadow">
                                                 {item.Product.map((product) => (
-                                                    <>
+                                                    <div key={product._id}>
                                                         <div className="relative">
                                                             <button
                                                                 // onClick={() => removeItem(item.id)}
@@ -181,7 +183,7 @@ export default function WishListPage() {
                                                             <span className="text-gray-300">|</span>
                                                             <button className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
                                                         </div>
-                                                    </>
+                                                    </div>
                                                 ))}
                                             </div>
                                         ))}
