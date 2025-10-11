@@ -14,8 +14,10 @@ export async function POST(req: NextRequest) {
 
         const decoded = verifyToken(token)
         const userId = decoded._id
+
         const body = await req.json()
-        const payload = {...body, userId}
+        const {productId} = body
+        const payload = {productId, userId}
         const message = await Wishlist.createWishlist(payload)
         return Response.json({message}, {status: HTTPStatus.Created})
     } catch (error) {

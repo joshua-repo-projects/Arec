@@ -52,6 +52,29 @@ export default function WishListPage() {
         }
     }
 
+    const handleRemove = async(id: string) => {
+        try {
+            setLoading(true)
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists/${id}`, {
+                method: 'DELETE',
+                credentials: 'include'
+            })
+            const data = await resp.json()
+
+            if (!resp.ok) {
+                showError(data.message)
+                return
+            }
+            setItems((prev) => prev.filter((item) => item._id !== id))
+            await fetchWishlists()
+        } catch (error) {
+            console.log(error, '<<< error remove wishlist page')
+            showError(error)
+        } finally {
+            setLoading(false)
+        }
+    }
+
     useEffect(() => {
         fetchWishlists()
     }, [])
@@ -77,7 +100,7 @@ export default function WishListPage() {
                                             <div key={product._id}>
                                                 <div className="flex gap-3 items-start mb-3">
                                                     <button
-                                                        // onClick={() => removeItem(item.id)}
+                                                        onClick={() => handleRemove(item._id)}
                                                         className="cursor-pointer text-gray-400 hover:text-gray-600 mt-1"
                                                     >
                                                         <X size={18} />
@@ -138,7 +161,7 @@ export default function WishListPage() {
                                                     <div key={product._id}>
                                                         <div className="relative">
                                                             <button
-                                                                // onClick={() => removeItem(item.id)}
+                                                                onClick={() => handleRemove(item._id)}
                                                                 className="cursor-pointer absolute top-0 right-0 text-gray-400 hover:text-gray-600"
                                                             >
                                                                 <X size={20} />
@@ -181,7 +204,9 @@ export default function WishListPage() {
                                                             <span className="text-gray-300">|</span>
                                                             <button className="cursor-pointer text-green-600 hover:underline">Edit</button>
                                                             <span className="text-gray-300">|</span>
-                                                            <button className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
+                                                            <button
+                                                            onClick={() => handleRemove(item._id)} 
+                                                            className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
                                                         </div>
                                                     </div>
                                                 ))}

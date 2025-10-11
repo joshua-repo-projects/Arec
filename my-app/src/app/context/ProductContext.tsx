@@ -87,15 +87,6 @@ export function ProductProvider({ children }: { children: ReactNode }) {
     }, [])
 
     const toggleWishlist = async (productId: string): Promise<void> => {
-        const productIds = wishlists.flatMap(el => el.Product.map(p => p._id))
-        if (productIds.includes(productId)) {
-        setWishLists(prev =>
-            prev.filter(item =>
-                !item.Product.some(p => p._id === productId)
-            )
-        )
-    }
-
         try {
             setLoading(true)
             const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists`, {

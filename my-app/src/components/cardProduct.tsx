@@ -2,6 +2,7 @@ import { ProductSpecial } from "@/app/(main)/products/typescript.ts/extended-int
 import { useProduct } from "@/app/context/ProductContext";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { Heart, Star } from "lucide-react";
+import { useState } from "react";
 
 
 type TCardProductWithSpecial = {
@@ -10,6 +11,14 @@ type TCardProductWithSpecial = {
 
 export default function CardProduct({ product }: TCardProductWithSpecial) {
   const { wishlists, toggleWishlist } = useProduct()
+  const [loading, setLoading] = useState(false)
+
+  const handleWishlist = async () => {
+    const isWishlisted = wishlists.some(el => el.Product.some(p => p._id === product._id))
+    if (isWishlisted || loading) return
+
+    toggleWishlist(product._id)
+  }
 
   return (
     <div key={product._id} className="cursor-pointer bg-white rounded-lg shadow hover:shadow-lg transition group">
@@ -20,10 +29,10 @@ export default function CardProduct({ product }: TCardProductWithSpecial) {
           className="w-full h-48 object-cover rounded-t-lg"
         />
         <button
-          onClick={() => toggleWishlist(product._id)}
+          onClick={handleWishlist}
           className={`cursor-pointer absolute top-3 right-3 p-2 rounded-full transition ${wishlists.some(el => el.Product.some(p => p._id === product._id))
-              ? 'bg-red-500 text-white'
-              : 'bg-white text-gray-600 hover:bg-gray-100'
+            ? 'bg-red-500 text-white'
+            : 'bg-white text-gray-600 hover:bg-gray-100'
             }`}
         >
           <Heart className={`w-5 h-5 ${wishlists.some(el => el.Product.some(p => p._id === product._id))

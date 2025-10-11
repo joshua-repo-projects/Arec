@@ -1,6 +1,8 @@
 import { ObjectId } from "mongodb"
 import { getDB } from "../config/mongoDB"
 import z from "zod"
+import { BaseError } from "../helpers/customErrors"
+import { HTTPStatus } from "../types/Index"
 
 interface IWishlist {
     userId: ObjectId
@@ -29,6 +31,14 @@ export default class Wishlist {
             productId: new ObjectId(payload.productId),
             createdAt: new Date(),
             updatedAt: new Date()
+        }
+
+        const isExist = await collection.findOne({
+            userId: new ObjectId(payload.userId),
+            productId: new ObjectId(payload.productId)
+        })
+        if (isExist) {
+            throw new BaseError('Wishlist already exists', HTTPStatus.BadRequest)
         }
 
         await collection.insertOne(wishlists)
@@ -61,9 +71,9 @@ export default class Wishlist {
         return data
     }
 
-    static async deleteWishlist() {
+    static async deleteWishlist(id: string) {
         const collection = this.connection()
-        const query = { _id: ObjectId }
+        const query = { _id: new ObjectId(id) }
         await collection.deleteOne(query)
 
         return 'Successfull delete wishlist'
