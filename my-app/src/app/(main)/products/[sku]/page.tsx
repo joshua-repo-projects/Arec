@@ -22,10 +22,10 @@ export async function generateMetadata(props: IProps): Promise<Metadata> {
   )
  
   return {
-    title: post.name,
-    description: post.description,
+    title: post.data.name,
+    description: post.data.description,
     openGraph: {
-        images: post.thumbnail
+        images: [post.data.thumbnail]
     }
   }
 }
