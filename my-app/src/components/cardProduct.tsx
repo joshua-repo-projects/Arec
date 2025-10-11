@@ -1,7 +1,10 @@
+'use client'
+
 import { ProductSpecial } from "@/app/(main)/products/typescript.ts/extended-interfaces";
 import { useProduct } from "@/app/context/ProductContext";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { Heart, Star } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 
@@ -12,6 +15,7 @@ type TCardProductWithSpecial = {
 export default function CardProduct({ product }: TCardProductWithSpecial) {
   const { wishlists, toggleWishlist } = useProduct()
   const [loading, setLoading] = useState(false)
+  const router = useRouter()
 
   const handleWishlist = async () => {
     const isWishlisted = wishlists.some(el => el.Product.some(p => p._id === product._id))
@@ -21,7 +25,10 @@ export default function CardProduct({ product }: TCardProductWithSpecial) {
   }
 
   return (
-    <div key={product._id} className="cursor-pointer bg-white rounded-lg shadow hover:shadow-lg transition group">
+    <div 
+    onClick={() => router.push(`/products/${product.sku}`)}
+    key={product._id} 
+    className="cursor-pointer bg-white rounded-lg shadow hover:shadow-lg transition group">
       <div className="relative">
         <img
           src={product.thumbnail}

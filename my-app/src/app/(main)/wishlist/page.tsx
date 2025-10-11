@@ -52,7 +52,7 @@ export default function WishListPage() {
         }
     }
 
-    const handleRemove = async(id: string) => {
+    const handleRemove = async (id: string) => {
         try {
             setLoading(true)
             const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/wishlists/${id}`, {
@@ -79,7 +79,10 @@ export default function WishListPage() {
         fetchWishlists()
     }, [])
 
-    if (loading) return <Loading />
+    if (loading) return (
+        <div className="fixed inset-0 flex justify-center items-center bg-black/30 backdrop-blur-sm z-50">
+            <Loading />
+        </div>)
 
     return (
         <>
@@ -97,7 +100,10 @@ export default function WishListPage() {
                                 {loggedIn && items.map((item) => (
                                     <div key={item._id} className="mb-6 pb-6 border-b last:border-b-0 last:mb-0 last:pb-0">
                                         {item.Product.map((product) => (
-                                            <div key={product._id}>
+                                            <div
+                                            className="cursor-pointer" 
+                                            onClick={() => router.push(`/products/${product.sku}`)}
+                                            key={product._id}>
                                                 <div className="flex gap-3 items-start mb-3">
                                                     <button
                                                         onClick={() => handleRemove(item._id)}
@@ -158,7 +164,10 @@ export default function WishListPage() {
                                         {items.map((item) => (
                                             <div key={item._id} className="border border-gray-200 rounded p-4 hover:shadow-lg transition-shadow">
                                                 {item.Product.map((product) => (
-                                                    <div key={product._id}>
+                                                    <div 
+                                                    className="cursor-pointer" 
+                                                    onClick={() => router.push(`/products/${product.sku}`)}
+                                                    key={product._id}>
                                                         <div className="relative">
                                                             <button
                                                                 onClick={() => handleRemove(item._id)}
@@ -205,8 +214,8 @@ export default function WishListPage() {
                                                             <button className="cursor-pointer text-green-600 hover:underline">Edit</button>
                                                             <span className="text-gray-300">|</span>
                                                             <button
-                                                            onClick={() => handleRemove(item._id)} 
-                                                            className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
+                                                                onClick={() => handleRemove(item._id)}
+                                                                className="cursor-pointer text-green-600 hover:underline">Remove Item</button>
                                                         </div>
                                                     </div>
                                                 ))}

@@ -29,8 +29,12 @@ export default function ListProduct() {
   useEffect(() => {
     fetchWishlists()
   }, [])
-  
-  if (loading) return <Loading />
+
+  if (loading) return (
+    <div className="fixed inset-0 flex justify-center items-center bg-black/30 backdrop-blur-sm z-50">
+      <Loading />
+    </div>
+  )
 
   return (
     <>

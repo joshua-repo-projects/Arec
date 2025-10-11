@@ -57,7 +57,9 @@ export default function AcerNavbar() {
 
                     {/* Right Icons */}
                     <div className="flex items-center space-x-6">
-                        <button className="text-gray-600 hover:text-[#83b81a] transition-colors">
+                        <button 
+                        onClick={() => router.push(`/wishlist`)}
+                        className="cursor-pointer text-gray-600 hover:text-[#83b81a] transition-colors">
                             <Heart className="h-6 w-6" />
                         </button>
                         <button className="text-gray-600 hover:text-[#83b81a] transition-colors">
