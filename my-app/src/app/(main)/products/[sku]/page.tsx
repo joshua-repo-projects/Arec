@@ -1,20 +1,38 @@
 import ImageGallery from "@/components/imageGallery";
 import QuantitySelector from "@/components/quantitySelector";
 import SpecData from "@/components/specData";
-import { Heart, Share2, ShoppingCart } from "lucide-react";
+import { Share2, ShoppingCart } from "lucide-react";
 import { ProductSpecial } from "../typescript.ts/extended-interfaces";
 import { formatPrice } from "@/helpers/FormatMoney";
 import AcerNavbar from "@/components/navbar";
-import { showError } from "@/helpers/alert";
 import WishlistButton from "@/components/wishlistButton";
+import { Metadata } from "next";
 
 interface IProps {
-    params: { sku: string }
+    params: Promise<{sku: string}>
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+export async function generateMetadata(props: IProps): Promise<Metadata> {
+  const {sku} = await props.params 
+ 
+  // fetch post information
+  const post = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products/${sku}`).then((res) =>
+    res.json()
+  )
+ 
+  return {
+    title: post.name,
+    description: post.description,
+    openGraph: {
+        images: post.thumbnail
+    }
+  }
 }
 
 
-export default async function DetailProduct({ params }: IProps) {
-    const { sku } = params
+export default async function DetailProduct(props: IProps) {
+    const { sku } = await props.params
     const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products/${sku}`)
     const result = await resp.json()
     const data: ProductSpecial = result.data
