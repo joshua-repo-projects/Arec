@@ -1,4 +1,6 @@
-export function logoutUser() {
-  cookieStore.delete('access_token')
+import { deleteCookie } from "@/app/login/action";
+
+export async function logoutUser() {
+  await deleteCookie('access_token')
   window.location.reload();
 }

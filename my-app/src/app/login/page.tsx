@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { setCookie } from "./action"
 import Link from "next/link"
+import { Loading } from "@/components/loading"
 
 export default function LoginPage() {
     const [forms, setForm] = useState({
@@ -51,6 +52,8 @@ export default function LoginPage() {
 
     const isFilled = forms.email.trim().length > 0 || forms.password.trim().length > 0
 
+    if (loading) return <Loading />
+
     return (
         <div className="flex justify-center items-center min-h-screen bg-base-100">
             <div className="fieldset bg-base-200 border-base-300 rounded-box border p-8 w-full max-w-lg">
@@ -88,9 +91,9 @@ export default function LoginPage() {
                         Login
                     </button>
                     <p className="text-center text-sm text-gray-500 mt-4">
-                        Don't have an account?{" "}
+                        Do not have an account?{" "}
                         <Link href="/register" className="text-[#83b81a] hover:underline font-medium">
-                            Login
+                            Register
                         </Link>
                     </p>
                 </form>
