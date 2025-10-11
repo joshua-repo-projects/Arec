@@ -17,7 +17,8 @@ export default function CardProduct({ product }: TCardProductWithSpecial) {
   const [loading, setLoading] = useState(false)
   const router = useRouter()
 
-  const handleWishlist = async () => {
+  const handleWishlist = async (e: React.MouseEvent) => {
+    e.stopPropagation()
     const isWishlisted = wishlists.some(el => el.Product.some(p => p._id === product._id))
     if (isWishlisted || loading) return
 

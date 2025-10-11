@@ -11,7 +11,7 @@ import { Loading } from "@/components/loading";
 import { IWishListItem } from "../wishlist/page";
 import { formatPrice } from "@/helpers/FormatMoney";
 import { ProductSpecial } from "./typescript.ts/extended-interfaces";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export default function ListProduct() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
@@ -19,12 +19,19 @@ export default function ListProduct() {
   const { products, fetchProducts, loadMore, pagination, loadingMore, toggleWishlist, fetchWishlists, wishlists } = useProduct()
   const [loading, setLoading] = useState(false)
   const router = useRouter()
+  const searchParams = useSearchParams()
+  const search = searchParams.get('search') || ''
 
   const fetchMore = async () => {
     if (pagination && loadMore) {
-      await fetchProducts(pagination.currentPage + 1, true)
+      await fetchProducts(pagination.currentPage + 1, true, search)
     }
   }
+
+  useEffect(() => {
+    setLoading(true)
+    fetchProducts(1, false, search).finally(() => setLoading(false))
+  }, [search])
 
   useEffect(() => {
     fetchWishlists()

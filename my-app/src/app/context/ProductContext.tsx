@@ -19,7 +19,7 @@ type ProductContextType = {
     wishlists: IWishListItem[]
     loadMore: boolean
     toggleWishlist: (productId: string) => void
-    fetchProducts: (page?: number, append?: boolean) => Promise<void>
+    fetchProducts: (page?: number, append?: boolean, search?: string) => Promise<void>
     loadingMore: boolean
     fetchWishlists: () => Promise<void>
 }
@@ -34,14 +34,14 @@ export function ProductProvider({ children }: { children: ReactNode }) {
     const [loading, setLoading] = useState(false)
     const [loadingMore, setLoadingMore] = useState(false)
 
-    const fetchProducts = async (page: number = 1, append: boolean = false) => {
+    const fetchProducts = async (page: number = 1, append: boolean = false, search: string = '') => {
         if (loading || (append && loadingMore)) return
 
         if (append) setLoadingMore(true)
         else setLoading(true)
 
         try {
-            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products?page=${page}`)
+            const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products?page=${page}&search=${encodeURIComponent(search)}`)
             const data = await resp.json()
             const allProducts = data.data.data
             setProducts((el) =>
