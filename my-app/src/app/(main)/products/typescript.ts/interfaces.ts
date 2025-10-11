@@ -59,7 +59,7 @@ interface IOsItems {
   label: string
   value: string
 }
-type TOsItems = IOsItems
+type TOsItems = IOsItems[]
 interface IOs {
   title: string
   items: TOsItems
@@ -67,7 +67,7 @@ interface IOs {
 //-------
 
 //product spec
-interface ISpec {
+export interface ISpec {
   processor: IProcessor
   memory: IMemory
   storage: IStorage

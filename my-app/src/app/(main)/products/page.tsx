@@ -29,9 +29,7 @@ export default function ListProduct() {
   useEffect(() => {
     fetchWishlists()
   }, [])
-
-  // const wishlistProducts = products.filter(p => wishlist.includes(p._id))
-
+  
   if (loading) return <Loading />
 
   return (
