@@ -4,69 +4,24 @@ import { ProductSpecial } from "./products/typescript.ts/extended-interfaces";
 import Link from "next/link";
 import { formatPrice } from "@/helpers/FormatMoney";
 import Banner from "@/components/banner";
+import DetailEcommerce from "@/components/detailEcommerce";
 
-
-interface Card {
-  icon: string,
-  title: string,
-  description: string
-}
 
 export default async function Home() {
-
-  const infoCards: Card[] = [
-    {
-      icon: "🚚",
-      title: "Free Shipping",
-      description: "Free delivery for orders over $100"
-    },
-    {
-      icon: "💳",
-      title: "Secure Payment",
-      description: "100% secure payment methods"
-    },
-    {
-      icon: "🔄",
-      title: "Easy Returns",
-      description: "30-day return policy"
-    },
-    {
-      icon: "🎧",
-      title: "24/7 Support",
-      description: "Dedicated customer support"
-    }
-  ];
-
   const resp = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`)
   const data = await resp.json()
   console.log(data, '<<< data')
 
   const featuredProducts: ProductSpecial[] = data.data.data.sort(() => 0.5 - Math.random()).slice(0, 10)
 
-
-
   return (
     <>
       <AcerNavbar />
       <div className="min-h-screen bg-gray-50">
 
-        {/* Banner Carousel */}
         <Banner />
+        <DetailEcommerce/>
 
-        {/* Detail Info Ecommerce */}
-        <section className="max-w-7xl mx-auto px-4 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {infoCards.map((info, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition text-center">
-                <div className="text-4xl mb-3">{info.icon}</div>
-                <h3 className="font-bold text-lg mb-2">{info.title}</h3>
-                <p className="text-gray-600 text-sm">{info.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Featured Products */}
         <section className="max-w-7xl mx-auto px-4 py-12">
           <div className="flex justify-between items-center mb-8">
             <div>
@@ -125,7 +80,6 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Newsletter */}
         <section className="bg-blue-600 text-white py-16 mt-12">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
@@ -143,7 +97,6 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="bg-gray-900 text-gray-300 py-12">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
